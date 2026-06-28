@@ -1,0 +1,34 @@
+# =============================================================================
+#  Systemd service — PathlBank (pathl.pl)
+#  Instalacja na serwerze:
+#    sudo cp deploy/pathl-bank.service /etc/systemd/system/
+#    sudo systemctl daemon-reload
+#    sudo systemctl enable pathl-bank
+#    sudo systemctl start pathl-bank
+# =============================================================================
+[Unit]
+Description=PathlBank — Flask/Gunicorn Web Server
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=notify
+User=neon
+Group=neon
+WorkingDirectory=/var/www/bank
+EnvironmentFile=/var/www/bank/.env
+ExecStart=/var/www/bank/.venv/bin/gunicorn \
+    -c /var/www/bank/gunicorn.conf.py \
+    web_server:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Zabezpieczenia systemd
+NoNewPrivileges=yes
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

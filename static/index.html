@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathlBank - Bankowość Przyszłości</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome dla ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Arkusz stylów -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Logika frontendu -->
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Animowane świecące kule w tle -->
+    <div class="bg-glow">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
+        <div class="glow-circle glow-3"></div>
+    </div>
+
+    <!-- Pasek powiadomień/alertów -->
+    <div id="toast-container"></div>
+
+    <!-- ================= KONTENER AUTORYZACJI ================= -->
+    <div id="auth-container" class="active">
+        <div class="glass-card auth-card">
+            <div class="auth-header">
+                <div class="logo">
+                    <i class="fa-solid fa-building-columns icon-glow"></i>
+                    <span>PathlBank</span>
+                </div>
+                <h2 id="auth-title">Logowanie</h2>
+                <p id="auth-subtitle">Zaloguj się do swojego konta bankowego</p>
+            </div>
+
+            <!-- Formularz Logowania -->
+            <form id="login-form" class="auth-form active">
+                <div class="input-group">
+                    <label for="login-email"><i class="fa-regular fa-envelope"></i> Email</label>
+                    <input type="email" id="login-email" required placeholder="np. marek@gamil.com">
+                </div>
+                <div class="input-group">
+                    <label for="login-password"><i class="fa-solid fa-lock"></i> Hasło</label>
+                    <input type="password" id="login-password" required placeholder="Wpisz hasło">
+                    <a href="#" id="forgot-password-link" class="forgot-link">Zapomniałeś hasła?</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-glow">
+                    <span>Zaloguj się</span> <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+                <p class="auth-switch">Nie masz konta? <a href="#" id="switch-to-register">Zarejestruj się</a></p>
+            </form>
+
+            <!-- Formularz Zapomnianego Hasła - Krok 1 (Żądanie Kodu) -->
+            <form id="forgot-password-step1-form" class="auth-form">
+                <div class="input-group">
+                    <label for="forgot-email"><i class="fa-regular fa-envelope"></i> Email</label>
+                    <input type="email" id="forgot-email" required placeholder="np. jan@kowalski.pl">
+                </div>
+                <button type="submit" class="btn btn-primary btn-glow">
+                    <span>Wyślij kod weryfikacyjny</span> <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <p class="auth-switch"><a href="#" class="switch-to-login-class">Wróć do logowania</a></p>
+            </form>
+
+            <!-- Formularz Zapomnianego Hasła - Krok 2 (Reset Hasła) -->
+            <form id="forgot-password-step2-form" class="auth-form">
+                <div class="input-group">
+                    <label for="reset-code"><i class="fa-solid fa-key"></i> Kod weryfikacyjny (6 cyfr)</label>
+                    <input type="text" id="reset-code" required maxlength="6" pattern="^[0-9]{6}$" placeholder="np. 123456">
+                </div>
+                <div class="input-group">
+                    <label for="reset-new-password"><i class="fa-solid fa-lock"></i> Nowe hasło</label>
+                    <input type="password" id="reset-new-password" required placeholder="Min. 5 znaków">
+                </div>
+                <button type="submit" class="btn btn-success btn-glow">
+                    <span>Zmień hasło</span> <i class="fa-solid fa-circle-check"></i>
+                </button>
+                <p class="auth-switch"><a href="#" class="switch-to-login-class">Wróć do logowania</a></p>
+            </form>
+
+            <!-- Formularz Rejestracji -->
+            <form id="register-form" class="auth-form">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="reg-imie">Imię</label>
+                        <input type="text" id="reg-imie" required placeholder="np. Jan">
+                    </div>
+                    <div class="input-group">
+                        <label for="reg-nazwisko">Nazwisko</label>
+                        <input type="text" id="reg-nazwisko" required placeholder="np. Kowalski">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" required placeholder="np. jan@kowalski.pl">
+                </div>
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="reg-pesel">PESEL</label>
+                        <input type="text" id="reg-pesel" required maxlength="11" pattern="^[0-9]{11}$" placeholder="11 cyfr">
+                    </div>
+                    <div class="input-group">
+                        <label for="reg-pin">PIN (4 cyfry)</label>
+                        <input type="password" id="reg-pin" required maxlength="4" pattern="^[0-9]{4}$" placeholder="np. 1234">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="reg-password">Hasło</label>
+                    <input type="password" id="reg-password" required placeholder="Min. 5 znaków">
+                </div>
+                <div class="input-group">
+                    <label for="reg-saldo">Saldo początkowe (zł)</label>
+                    <input type="number" id="reg-saldo" min="0" step="0.01" value="0.00">
+                </div>
+                <div class="input-group">
+                    <label for="reg-2fa"><i class="fa-solid fa-shield-halved"></i> Weryfikacja logowania (2FA)</label>
+                    <select id="reg-2fa" class="auth-select">
+                        <option value="NONE">Tylko weryfikacja e-mail (Domyślnie)</option>
+                        <option value="TOTP">Weryfikacja e-mail + Google Authenticator (TOTP)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success btn-glow">
+                    <span>Stwórz konto</span> <i class="fa-solid fa-user-plus"></i>
+                </button>
+                <p class="auth-switch">Masz już konto? <a href="#" id="switch-to-login">Zaloguj się</a></p>
+            </form>
+
+            <!-- Formularz weryfikacji 2FA -->
+            <form id="2fa-form" class="auth-form">
+                <div class="input-group text-center" id="totp-setup-section" style="display: none; justify-content: center; align-items: center; flex-direction: column;">
+                    <p class="auth-hint" style="margin-bottom: 10px; font-size: 14px; color: var(--color-text-muted);">
+                        Zeskanuj poniższy kod QR w aplikacji Google Authenticator (TOTP):
+                    </p>
+                    <div class="qr-code-wrapper" style="background: white; padding: 10px; border-radius: 12px; display: inline-block; margin: 10px auto;">
+                        <img id="qr-code-img" src="" alt="Kod QR 2FA" style="max-width: 180px; display: block;">
+                    </div>
+                    <div class="secret-key-wrapper" style="margin-top: 5px; margin-bottom: 15px; font-size: 13px; color: var(--color-text-muted);">
+                        Lub klucz ręczny: <strong id="secret-key-text" style="color: var(--color-primary); letter-spacing: 1px;">---</strong>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label id="2fa-label" for="2fa-code"><i class="fa-solid fa-key"></i> Kod weryfikacyjny (6 cyfr)</label>
+                    <input type="text" id="2fa-code" required maxlength="6" pattern="^[0-9]{6}$" placeholder="np. 123456" style="text-align: center; letter-spacing: 4px; font-size: 20px;">
+                </div>
+                <button type="submit" class="btn btn-primary btn-glow" style="width: 100%;">
+                    <span>Zatwierdź kod</span> <i class="fa-solid fa-circle-check"></i>
+                </button>
+                <p class="auth-switch"><a href="#" id="cancel-2fa-btn">Anuluj</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- ================= KONTENER KOKPITU (DASHBOARD) ================= -->
+    <div id="dashboard-container">
+        <!-- Panel boczny (Sidebar) -->
+        <aside class="sidebar glass-card">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-building-columns icon-glow"></i>
+                <span>PathlBank</span>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active" data-view="view-summary">
+                    <i class="fa-solid fa-chart-pie"></i> <span>Podsumowanie</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-transfer">
+                    <i class="fa-solid fa-paper-plane"></i> <span>Przelew</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-deposit-withdraw">
+                    <i class="fa-solid fa-money-bill-transfer"></i> <span>Wpłata / Wypłata</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-all-users">
+                    <i class="fa-solid fa-users"></i> <span>Użytkownicy</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-badge">
+                    <div class="user-avatar" id="user-avatar-initials">JK</div>
+                    <div class="user-details">
+                        <span class="user-name" id="sidebar-user-name">Jan Kowalski</span>
+                        <span class="user-role">Klient</span>
+                    </div>
+                </div>
+                <button id="logout-btn" class="btn btn-logout">
+                    <i class="fa-solid fa-power-off"></i> <span>Wyloguj się</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Główny obszar roboczy -->
+        <main class="main-content">
+            <!-- Pasek górny -->
+            <header class="top-bar glass-card">
+                <h1 id="view-title">Podsumowanie konta</h1>
+                <div class="date-display" id="current-date-time">Niedziela, 28 Czerwca 2026</div>
+            </header>
+
+            <!-- WIDOK 1: PODSUMOWANIE (DASHBOARD SUMMARY) -->
+            <section id="view-summary" class="view-pane active">
+                <div class="dashboard-grid">
+                    <!-- Karta Kredytowa / Saldo (Glassmorphism) -->
+                    <div class="glass-card card-premium">
+                        <div class="card-chip"></div>
+                        <div class="card-logo">
+                            <i class="fa-solid fa-building-columns"></i> PathlBank
+                        </div>
+                        <div class="card-balance-section">
+                            <span class="balance-label">Dostępne środki</span>
+                            <span class="balance-amount" id="card-balance">0.00 PLN</span>
+                        </div>
+                        <div class="card-details">
+                            <div class="card-number" id="card-number-display">0000 0000 0000 0000</div>
+                            <div class="card-holder-section">
+                                <span class="holder-label">Właściciel karty</span>
+                                <span class="holder-name" id="card-holder-name">JAN KOWALSKI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Karta Szybkich Informacji -->
+                    <div class="glass-card info-summary-card">
+                        <h3>Witaj z powrotem!</h3>
+                        <p>Zarządzaj swoimi finansami w bezpieczny sposób. System szyfruje hasła przy użyciu algorytmu SHA-256 z unikalną solą.</p>
+                        <div class="account-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">ID Klienta:</span>
+                                <span class="meta-value" id="account-id">---</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Adres Email:</span>
+                                <span class="meta-value" id="account-email">---</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lista historii transakcji -->
+                <div class="glass-card transaction-card">
+                    <div class="card-header">
+                        <h2>Ostatnie transakcje</h2>
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <div class="transaction-table-wrapper">
+                        <table class="transaction-table">
+                            <thead>
+                                <tr>
+                                    <th>Typ</th>
+                                    <th>Odbiorca / Nadawca</th>
+                                    <th>Data i czas</th>
+                                    <th class="text-right">Kwota</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transaction-history-rows">
+                                <!-- Wiersze ładowane dynamicznie przez JS -->
+                                <tr>
+                                    <td colspan="4" class="text-center">Brak transakcji w historii.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK 2: WYKONAJ PRZELEW -->
+            <section id="view-transfer" class="view-pane">
+                <div class="glass-card form-container-card">
+                    <h2>Nowy przelew krajowy</h2>
+                    <p class="subtitle">Możesz zrealizować przelew wpisując adres e-mail, 16-cyfrowy numer karty lub ID odbiorcy.</p>
+                    
+                    <form id="transfer-form">
+                        <div class="input-group">
+                            <label for="trans-recipient">Identyfikator Odbiorcy</label>
+                            <input type="text" id="trans-recipient" required placeholder="np. email, nr karty lub ID odbiorcy">
+                            <small class="form-hint">Możesz też wybrać osobę z listy w menu "Użytkownicy".</small>
+                        </div>
+                        <div class="input-group">
+                            <label for="trans-amount">Kwota przelewu (PLN)</label>
+                            <input type="number" id="trans-amount" min="0.01" step="0.01" required placeholder="0.00">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-glow">
+                            <span>Wyślij przelew</span> <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- WIDOK 3: WPŁATA / WYPŁATA -->
+            <section id="view-deposit-withdraw" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Karta Wpłaty -->
+                    <div class="glass-card form-container-card">
+                        <h2>Wpłata na konto (Depozyt)</h2>
+                        <p class="subtitle">Wpłać środki na swoje konto bankowe natychmiastowo.</p>
+                        
+                        <form id="deposit-form">
+                            <div class="input-group">
+                                <label for="deposit-amount">Kwota wpłaty (PLN)</label>
+                                <input type="number" id="deposit-amount" min="0.01" step="0.01" required placeholder="0.00">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-glow">
+                                <span>Wpłać środki</span> <i class="fa-solid fa-circle-down"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Karta Wypłaty -->
+                    <div class="glass-card form-container-card">
+                        <h2>Wypłata z konta (Withdraw)</h2>
+                        <p class="subtitle">Wypłać środki ze swojego salda na konto zewnętrzne.</p>
+                        
+                        <form id="withdraw-form">
+                            <div class="input-group">
+                                <label for="withdraw-amount">Kwota wypłaty (PLN)</label>
+                                <input type="number" id="withdraw-amount" min="0.01" step="0.01" required placeholder="0.00">
+                            </div>
+                            <button type="submit" class="btn btn-danger btn-glow">
+                                <span>Wypłać środki</span> <i class="fa-solid fa-circle-up"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK 4: LISTA UŻYTKOWNIKÓW -->
+            <section id="view-all-users" class="view-pane">
+                <div class="glass-card transaction-card">
+                    <div class="card-header">
+                        <h2>Zarejestrowani użytkownicy</h2>
+                        <p class="subtitle">Lista innych klientów w systemie. Możesz kliknąć "Wyślij przelew", aby szybko przetransferować środki.</p>
+                    </div>
+                    
+                    <div class="users-list-grid" id="users-cards-container">
+                        <!-- Karty użytkowników ładowane przez JS -->
+                        <div class="text-center padding-20">Ładowanie użytkowników...</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

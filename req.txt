@@ -1,0 +1,8 @@
+psycopg[binary]
+flask
+flask-cors
+python-dotenv
+pyotp
+qrcode
+pillow
+gunicorn
