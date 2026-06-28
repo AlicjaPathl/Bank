@@ -1,0 +1,27 @@
+/* ================= DESIGN SYSTEM / ZMIENNE ================= */
+
+:root {
+    --bg-dark: #090b10;
+    --bg-card: rgba(18, 22, 32, 0.55);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-highlight: rgba(255, 255, 255, 0.03);
+    
+    --color-primary: #00f2fe;
+    --color-primary-grad: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    --color-secondary-grad: linear-gradient(135deg, #b224ef 0%, #7579ff 100%);
+    --color-success: #00e676;
+    --color-success-grad: linear-gradient(135deg, #00e676 0%, #00b0ff 100%);
+    --color-danger: #ff1744;
+    --color-danger-grad: linear-gradient(135deg, #ff1744 0%, #ff9100 100%);
+    --color-text-main: #f0f3f8;
+    --color-text-muted: #8a99ad;
+    --color-card-text: #ffffff;
+    
+    --shadow-glow: 0 8px 32px 0 rgba(0, 242, 254, 0.15);
+    --shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --border-radius: 16px;
+    --transition-fast: 0.25s ease;
+    --transition-slow: 0.5s ease;
+}
+
+

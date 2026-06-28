@@ -1,0 +1,122 @@
+<div class="active" id="auth-container">
+<div class="glass-card auth-card">
+<div class="auth-header">
+<div class="logo">
+<i class="fa-solid fa-building-columns icon-glow"></i>
+<span>PathlBank</span>
+</div>
+<h2 id="auth-title">Logowanie</h2>
+<p id="auth-subtitle">Zaloguj się do swojego konta bankowego</p>
+</div>
+<!-- Formularz Logowania -->
+<form class="auth-form active" id="login-form">
+<div class="input-group">
+<label for="login-email"><i class="fa-regular fa-envelope"></i> Email</label>
+<input id="login-email" placeholder="np. marek@gamil.com" required="" type="email"/>
+</div>
+<div class="input-group">
+<label for="login-password"><i class="fa-solid fa-lock"></i> Hasło</label>
+<input id="login-password" placeholder="Wpisz hasło" required="" type="password"/>
+<a class="forgot-link" href="#" id="forgot-password-link">Zapomniałeś hasła?</a>
+</div>
+<button class="btn btn-primary btn-glow" type="submit">
+<span>Zaloguj się</span> <i class="fa-solid fa-right-to-bracket"></i>
+</button>
+<p class="auth-switch">Nie masz konta? <a href="#" id="switch-to-register">Zarejestruj się</a></p>
+</form>
+<!-- Formularz Zapomnianego Hasła - Krok 1 (Żądanie Kodu) -->
+<form class="auth-form" id="forgot-password-step1-form">
+<div class="input-group">
+<label for="forgot-email"><i class="fa-regular fa-envelope"></i> Email</label>
+<input id="forgot-email" placeholder="np. jan@kowalski.pl" required="" type="email"/>
+</div>
+<button class="btn btn-primary btn-glow" type="submit">
+<span>Wyślij kod weryfikacyjny</span> <i class="fa-solid fa-paper-plane"></i>
+</button>
+<p class="auth-switch"><a class="switch-to-login-class" href="#">Wróć do logowania</a></p>
+</form>
+<!-- Formularz Zapomnianego Hasła - Krok 2 (Reset Hasła) -->
+<form class="auth-form" id="forgot-password-step2-form">
+<div class="input-group">
+<label for="reset-code"><i class="fa-solid fa-key"></i> Kod weryfikacyjny (6 cyfr)</label>
+<input id="reset-code" maxlength="6" pattern="^[0-9]{6}$" placeholder="np. 123456" required="" type="text"/>
+</div>
+<div class="input-group">
+<label for="reset-new-password"><i class="fa-solid fa-lock"></i> Nowe hasło</label>
+<input id="reset-new-password" placeholder="Min. 5 znaków" required="" type="password"/>
+</div>
+<button class="btn btn-success btn-glow" type="submit">
+<span>Zmień hasło</span> <i class="fa-solid fa-circle-check"></i>
+</button>
+<p class="auth-switch"><a class="switch-to-login-class" href="#">Wróć do logowania</a></p>
+</form>
+<!-- Formularz Rejestracji -->
+<form class="auth-form" id="register-form">
+<div class="form-grid">
+<div class="input-group">
+<label for="reg-imie">Imię</label>
+<input id="reg-imie" placeholder="np. Jan" required="" type="text"/>
+</div>
+<div class="input-group">
+<label for="reg-nazwisko">Nazwisko</label>
+<input id="reg-nazwisko" placeholder="np. Kowalski" required="" type="text"/>
+</div>
+</div>
+<div class="input-group">
+<label for="reg-email">Email</label>
+<input id="reg-email" placeholder="np. jan@kowalski.pl" required="" type="email"/>
+</div>
+<div class="form-grid">
+<div class="input-group">
+<label for="reg-pesel">PESEL</label>
+<input id="reg-pesel" maxlength="11" pattern="^[0-9]{11}$" placeholder="11 cyfr" required="" type="text"/>
+</div>
+<div class="input-group">
+<label for="reg-pin">PIN (4 cyfry)</label>
+<input id="reg-pin" maxlength="4" pattern="^[0-9]{4}$" placeholder="np. 1234" required="" type="password"/>
+</div>
+</div>
+<div class="input-group">
+<label for="reg-password">Hasło</label>
+<input id="reg-password" placeholder="Min. 5 znaków" required="" type="password"/>
+</div>
+<div class="input-group">
+<label for="reg-saldo">Saldo początkowe (zł)</label>
+<input id="reg-saldo" min="0" step="0.01" type="number" value="0.00"/>
+</div>
+<div class="input-group">
+<label for="reg-2fa"><i class="fa-solid fa-shield-halved"></i> Weryfikacja logowania (2FA)</label>
+<select class="auth-select" id="reg-2fa">
+<option value="NONE">Tylko weryfikacja e-mail (Domyślnie)</option>
+<option value="TOTP">Weryfikacja e-mail + Google Authenticator (TOTP)</option>
+</select>
+</div>
+<button class="btn btn-success btn-glow" type="submit">
+<span>Stwórz konto</span> <i class="fa-solid fa-user-plus"></i>
+</button>
+<p class="auth-switch">Masz już konto? <a href="#" id="switch-to-login">Zaloguj się</a></p>
+</form>
+<!-- Formularz weryfikacji 2FA -->
+<form class="auth-form" id="2fa-form">
+<div class="input-group text-center" id="totp-setup-section" style="display: none; justify-content: center; align-items: center; flex-direction: column;">
+<p class="auth-hint" style="margin-bottom: 10px; font-size: 14px; color: var(--color-text-muted);">
+                        Zeskanuj poniższy kod QR w aplikacji Google Authenticator (TOTP):
+                    </p>
+<div class="qr-code-wrapper" style="background: white; padding: 10px; border-radius: 12px; display: inline-block; margin: 10px auto;">
+<img alt="Kod QR 2FA" id="qr-code-img" src="" style="max-width: 180px; display: block;"/>
+</div>
+<div class="secret-key-wrapper" style="margin-top: 5px; margin-bottom: 15px; font-size: 13px; color: var(--color-text-muted);">
+                        Lub klucz ręczny: <strong id="secret-key-text" style="color: var(--color-primary); letter-spacing: 1px;">---</strong>
+</div>
+</div>
+<div class="input-group">
+<label for="2fa-code" id="2fa-label"><i class="fa-solid fa-key"></i> Kod weryfikacyjny (6 cyfr)</label>
+<input id="2fa-code" maxlength="6" pattern="^[0-9]{6}$" placeholder="np. 123456" required="" style="text-align: center; letter-spacing: 4px; font-size: 20px;" type="text"/>
+</div>
+<button class="btn btn-primary btn-glow" style="width: 100%;" type="submit">
+<span>Zatwierdź kod</span> <i class="fa-solid fa-circle-check"></i>
+</button>
+<p class="auth-switch"><a href="#" id="cancel-2fa-btn">Anuluj</a></p>
+</form>
+</div>
+</div>

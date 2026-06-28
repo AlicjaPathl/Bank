@@ -355,3 +355,1328 @@
 2026-06-28 11:03:13,642 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
 2026-06-28 11:03:13,650 [WARNING] MainThread:  * Debugger is active!
 2026-06-28 11:03:13,653 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:03:27,801 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:03:27,878 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:03:36,728 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/server.py', reloading
+2026-06-28 11:03:36,796 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:03:37,063 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:03:37,119 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:03:37,126 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:03:37,137 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:03:37,140 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:03:50,185 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/server.py', reloading
+2026-06-28 11:03:50,253 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:03:50,527 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:03:50,577 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:03:50,583 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:03:50,592 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:03:50,594 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:03:55,622 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:03:55,693 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:03:55,950 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:03:56,001 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:03:56,007 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:03:56,015 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:03:56,017 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:07,058 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/server.py', reloading
+2026-06-28 11:04:07,134 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:07,422 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:07,479 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:07,487 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:07,497 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:07,500 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:14,529 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:04:14,599 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:14,866 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:14,918 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:14,924 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:14,932 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:14,934 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:23,971 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/server.py', reloading
+2026-06-28 11:04:24,063 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:24,343 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:24,402 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:24,408 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:24,418 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:24,420 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:28,438 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:04:28,507 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:28,779 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:28,834 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:28,841 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:28,850 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:28,852 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:42,902 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:04:42,974 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:43,240 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:43,290 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:43,290 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:04:43,290 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:04:43,296 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:43,305 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:43,307 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:04:56,351 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:04:56,426 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:04:56,679 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:04:56,734 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:04:56,735 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:04:56,735 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:04:56,741 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:04:56,748 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:04:56,751 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:05:34,862 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:05:34,935 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:05:35,204 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:05:35,259 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:05:35,259 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:05:35,260 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:05:35,279 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:05:35,287 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:05:35,289 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:14:04,741 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:14:04,819 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:14:05,107 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:14:05,161 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:14:05,161 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:14:05,161 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:14:05,181 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:14:05,190 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:14:05,193 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:15:03,365 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:15:03,433 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:15:03,703 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:15:03,750 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:15:03,750 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:15:03,750 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:15:03,772 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:15:03,783 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:15:03,785 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:15:20,843 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:15:20,930 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:15:21,211 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:15:21,262 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:15:21,262 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:15:21,262 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:15:21,286 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:15:21,296 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:15:21,298 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:16:22,843 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:16:22] "[31m[1mGET /api/stocks/list HTTP/1.1[0m" 401 -
+2026-06-28 11:16:50,407 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:16:50] "GET / HTTP/1.1" 200 -
+2026-06-28 11:17:17,480 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:17:17] "GET / HTTP/1.1" 200 -
+2026-06-28 11:18:16,653 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:18:16,715 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:18:16,715 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:18:16,715 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:18:16,738 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:18:22,344 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:18:22] "GET / HTTP/1.1" 200 -
+2026-06-28 11:18:22,354 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:18:22] "[31m[1mGET /api/stocks/list HTTP/1.1[0m" 401 -
+2026-06-28 11:20:49,246 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:20:49,325 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:20:49,601 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:20:49,652 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:20:49,653 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:20:49,653 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:20:49,681 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:20:49,693 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:20:49,696 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:21:23,803 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:21:23,920 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:21:24,216 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:21:24,271 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:21:24,271 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:21:24,271 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:21:24,298 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:21:24,310 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:21:24,312 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:21:44,327 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:21:44,397 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:21:44,397 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:21:44,397 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:21:44,424 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:21:50,024 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:21:50] "GET / HTTP/1.1" 200 -
+2026-06-28 11:21:50,035 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:21:50] "[31m[1mGET /api/rewards HTTP/1.1[0m" 401 -
+2026-06-28 11:21:50,059 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:21:50] "[31m[1mGET /api/fundraisers/list HTTP/1.1[0m" 401 -
+2026-06-28 11:22:40,732 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:22:40,795 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:22:40,813 [INFO] MainThread: ==================================================
+2026-06-28 11:22:40,813 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 595209   
+2026-06-28 11:22:40,813 [INFO] MainThread: ==================================================
+2026-06-28 11:22:40,813 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 11:22:46,659 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:22:46] "GET / HTTP/1.1" 200 -
+2026-06-28 11:22:46,676 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:22:46] "GET /app.js HTTP/1.1" 200 -
+2026-06-28 11:22:46,676 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:22:46] "GET /style.css HTTP/1.1" 200 -
+2026-06-28 11:22:48,908 [INFO] Thread-10 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 11:22:48,948 [INFO] Thread-10 (process_request_thread): ==================================================
+2026-06-28 11:22:48,948 [INFO] Thread-10 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 514462   
+2026-06-28 11:22:48,948 [INFO] Thread-10 (process_request_thread): ==================================================
+2026-06-28 11:22:49,817 [INFO] Thread-10 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 11:22:49,818 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:22:49] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 11:23:03,651 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:03] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 11:23:03,664 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:03] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 11:23:03,667 [INFO] Thread-13 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 11:23:03,677 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:03] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 11:23:06,642 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:06] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 11:23:10,579 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:10] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 11:23:11,952 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:11] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 11:23:15,457 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:15] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 11:23:22,803 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:22] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 11:23:38,440 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:38] "GET /?settings-2fa-radio=TOTP HTTP/1.1" 200 -
+2026-06-28 11:23:38,460 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:38] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:23:38,461 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:38] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:23:39,467 [INFO] Thread-22 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 11:23:39,508 [INFO] Thread-22 (process_request_thread): ==================================================
+2026-06-28 11:23:39,508 [INFO] Thread-22 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 826394   
+2026-06-28 11:23:39,509 [INFO] Thread-22 (process_request_thread): ==================================================
+2026-06-28 11:23:40,291 [INFO] Thread-22 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 11:23:40,291 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:40] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 11:23:48,866 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:48] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 11:23:48,879 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:48] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 11:23:48,882 [INFO] Thread-25 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 11:23:48,892 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:48] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 11:23:50,356 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:50] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 11:23:56,719 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:56] "[36mGET /?settings-2fa-radio=TOTP HTTP/1.1[0m" 304 -
+2026-06-28 11:23:56,735 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:56] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:23:56,735 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:23:56] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:29:08,545 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:29:08,671 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:29:08,704 [INFO] MainThread: ==================================================
+2026-06-28 11:29:08,705 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 275663   
+2026-06-28 11:29:08,705 [INFO] MainThread: ==================================================
+2026-06-28 11:29:08,705 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 11:29:27,780 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:29:27,837 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:29:27,856 [INFO] MainThread: ==================================================
+2026-06-28 11:29:27,856 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 319880   
+2026-06-28 11:29:27,856 [INFO] MainThread: ==================================================
+2026-06-28 11:29:27,856 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 11:29:40,408 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:29:40,475 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:29:40,495 [INFO] MainThread: ==================================================
+2026-06-28 11:29:40,495 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 531858   
+2026-06-28 11:29:40,495 [INFO] MainThread: ==================================================
+2026-06-28 11:29:40,495 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 11:29:53,564 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:29:53,625 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:29:53,642 [INFO] MainThread: ==================================================
+2026-06-28 11:29:53,642 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 791487   
+2026-06-28 11:29:53,642 [INFO] MainThread: ==================================================
+2026-06-28 11:29:53,642 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 11:30:40,187 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:30:40,248 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:30:40,248 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:30:40,249 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:30:40,274 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:30:40,287 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-06-28 11:30:40,288 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 11:30:40,288 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:30:40,585 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:30:40,645 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:30:40,645 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:30:40,645 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:30:40,671 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:30:40,683 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:30:40,685 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:30:49,074 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:30:49] "GET / HTTP/1.1" 200 -
+2026-06-28 11:30:49,087 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:30:49] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:30:49,088 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:30:49] "GET /app.js HTTP/1.1" 200 -
+2026-06-28 11:30:50,212 [INFO] Thread-7 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 11:30:50,248 [INFO] Thread-7 (process_request_thread): ==================================================
+2026-06-28 11:30:50,248 [INFO] Thread-7 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 993583   
+2026-06-28 11:30:50,248 [INFO] Thread-7 (process_request_thread): ==================================================
+2026-06-28 11:30:51,554 [INFO] Thread-7 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 11:30:51,555 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:30:51] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 11:31:02,100 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:02] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 11:31:02,113 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:02] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 11:31:02,116 [INFO] Thread-10 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 11:31:02,127 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:02] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 11:31:06,104 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:06] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 11:31:09,426 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:09] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:31:09,444 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:09] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:31:09,445 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:09] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:31:13,858 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:13] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:31:13,880 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:13] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:31:13,883 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:31:58,100 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:58] "GET / HTTP/1.1" 200 -
+2026-06-28 11:31:58,118 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:58] "GET /style.css HTTP/1.1" 200 -
+2026-06-28 11:31:58,124 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:58] "GET /app.js HTTP/1.1" 200 -
+2026-06-28 11:31:58,230 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:31:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-28 11:33:22,765 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:33:22] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:33:22,786 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:33:22] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:33:22,792 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:33:22] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:33:22,880 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:33:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-28 11:36:35,748 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:36:35,837 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:36:36,163 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:36:36,214 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:36:36,215 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:36:36,215 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:36:36,242 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:36:36,257 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:36:36,259 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:36:49,311 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:36:49,402 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:36:49,686 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:36:49,741 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:36:49,741 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:36:49,741 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:36:49,769 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 5000...
+2026-06-28 11:36:49,782 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:36:49,784 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:41:34,288 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:41:34,309 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:41:34,310 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:41:34,863 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:41:34,879 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:41:34,880 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:34] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:41:35,324 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:35] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 11:41:35,341 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:35] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 11:41:35,341 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:41:35] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 11:42:20,780 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 11:42:20,870 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:42:21,174 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:42:21,232 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:42:21,232 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:42:21,233 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:42:21,263 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 11:42:21,276 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:42:21,279 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 11:44:36,147 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:44:36,210 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:44:36,210 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:44:36,210 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:44:36,242 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 11:44:36,258 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.62:80
+2026-06-28 11:44:36,258 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 11:44:36,258 [INFO] MainThread:  * Restarting with stat
+2026-06-28 11:44:36,557 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 11:44:36,619 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 11:44:36,619 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 11:44:36,620 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 11:44:36,647 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 11:44:36,659 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 11:44:36,662 [INFO] MainThread:  * Debugger PIN: 160-533-682
+2026-06-28 11:44:59,455 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:44:59] "GET / HTTP/1.1" 200 -
+2026-06-28 11:44:59,483 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:44:59] "GET /style.css HTTP/1.1" 200 -
+2026-06-28 11:44:59,483 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:44:59] "GET /app.js HTTP/1.1" 200 -
+2026-06-28 11:44:59,516 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 11:44:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-28 12:11:17,940 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:11:17,996 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:11:17,996 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:11:17,996 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:11:18,031 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 12:11:18,046 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.62:80
+2026-06-28 12:11:18,046 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:11:18,047 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:11:18,361 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:11:18,426 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:11:18,426 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:11:18,426 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:11:18,458 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 12:11:18,471 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:11:18,474 [INFO] MainThread:  * Debugger PIN: 679-549-578
+2026-06-28 12:11:23,975 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:11:23] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 12:11:24,008 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:11:24] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 12:11:24,009 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:11:24] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:11:36,715 [INFO] Thread-8 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:11:36,729 [INFO] Thread-8 (process_request_thread): ==================================================
+2026-06-28 12:11:36,729 [INFO] Thread-8 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 946663   
+2026-06-28 12:11:36,729 [INFO] Thread-8 (process_request_thread): ==================================================
+2026-06-28 12:11:38,320 [INFO] Thread-8 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 12:11:38,321 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:11:38] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:14:05,564 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:14:05,628 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:14:05,628 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:14:05,629 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:14:05,659 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 12:14:05,682 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.62:80
+2026-06-28 12:14:05,682 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:14:05,683 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:14:05,992 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:14:06,048 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:14:06,048 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:14:06,048 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:14:06,074 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 12:14:06,086 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:14:06,089 [INFO] MainThread:  * Debugger PIN: 204-426-820
+2026-06-28 12:14:07,292 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:07] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:08,157 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:08] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:09,249 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:09] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:11,841 [INFO] Thread-7 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:14:11,864 [INFO] Thread-7 (process_request_thread): ==================================================
+2026-06-28 12:14:11,864 [INFO] Thread-7 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 935078   
+2026-06-28 12:14:11,865 [INFO] Thread-7 (process_request_thread): ==================================================
+2026-06-28 12:14:12,825 [INFO] Thread-8 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:14:12,849 [INFO] Thread-8 (process_request_thread): ==================================================
+2026-06-28 12:14:12,849 [INFO] Thread-8 (process_request_thread):    KOD 2FA DLA hxmarek@gmail.com: 917321   
+2026-06-28 12:14:12,849 [INFO] Thread-8 (process_request_thread): ==================================================
+2026-06-28 12:14:12,929 [INFO] Thread-7 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 12:14:12,929 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:12] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:14:13,679 [INFO] Thread-8 (process_request_thread): E-mail 2FA został pomyślnie wysłany do hxmarek@gmail.com
+2026-06-28 12:14:13,680 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:13] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:14:23,302 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:23] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:26,887 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:26] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:28,410 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:28] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 403 -
+2026-06-28 12:14:32,008 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:32] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:14:32,255 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:14:32] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:15:38,188 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:15:38,260 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:19:40,852 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:19:40,914 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:19:40,935 [INFO] MainThread: ==================================================
+2026-06-28 12:19:40,935 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 424709   
+2026-06-28 12:19:40,935 [INFO] MainThread: ==================================================
+2026-06-28 12:19:40,935 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 12:19:51,221 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:19:51,284 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:19:51,284 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:19:51,285 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:19:51,311 [INFO] MainThread: Uruchamianie serwera webowego Flask na porcie 80 (0.0.0.0)...
+2026-06-28 12:20:32,611 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:20:32,673 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:20:32,674 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:20:32,674 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:20:32,700 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:20:32,713 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 12:20:32,714 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:20:32,714 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:20:33,003 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:20:33,067 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:20:33,067 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:20:33,068 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:20:33,095 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:20:33,106 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:20:33,109 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:20:50,095 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:20:50,158 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:20:50,178 [INFO] MainThread: ==================================================
+2026-06-28 12:20:50,178 [INFO] MainThread:    KOD 2FA DLA test_2fa_user@example.com: 484981   
+2026-06-28 12:20:50,178 [INFO] MainThread: ==================================================
+2026-06-28 12:20:50,178 [WARNING] MainThread: SMTP nie zostało w pełni skonfigurowane w .env (brak SMTP_USER lub GMAIL_APP_PASSWORD). Użyto logowania w konsoli.
+2026-06-28 12:20:53,800 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:53] "GET / HTTP/1.1" 200 -
+2026-06-28 12:20:53,825 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:53] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:20:53,826 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:53] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 12:20:54,938 [INFO] Thread-7 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:20:54,952 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:54] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:20:54,967 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:54] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:20:54,974 [INFO] Thread-9 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 12:20:54,985 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:54] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 12:20:56,420 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:56] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 12:20:56,422 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:56] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 12:20:57,277 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:57] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 12:20:57,287 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:57] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 12:20:59,040 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:59] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 12:20:59,041 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:20:59] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 12:21:04,436 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:04] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 12:21:05,458 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:05] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 12:21:08,832 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:08] "[36mGET / HTTP/1.1[0m" 304 -
+2026-06-28 12:21:08,860 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:08] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:21:08,860 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:08] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2026-06-28 12:21:10,259 [INFO] Thread-22 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:21:10,273 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:10] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:21:10,288 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:10] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:21:10,291 [INFO] Thread-24 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 12:21:10,302 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:21:10] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 12:23:51,727 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 12:23:51,808 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:23:52,114 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:23:52,170 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:23:52,171 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:23:52,171 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:23:52,198 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:23:52,213 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:23:52,216 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:23:58,241 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 12:23:58,326 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:23:58,624 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:23:58,678 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:23:58,679 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:23:58,679 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:23:58,706 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:23:58,719 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:23:58,722 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:27:00,125 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:27:00] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 12:27:51,405 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:27:51] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 12:27:52,100 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:27:52] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 12:27:54,378 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:27:54] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 12:27:54,391 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:27:54] "GET /api/stocks/portfolio HTTP/1.1" 200 -
+2026-06-28 12:29:04,672 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/split_html.py', reloading
+2026-06-28 12:29:04,782 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:29:05,091 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:29:05,149 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:29:05,149 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:29:05,149 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:29:05,178 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:29:05,192 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:29:05,195 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:32:57,183 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:32:57,247 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:32:57,247 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:32:57,248 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:32:57,281 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:32:57,296 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 12:32:57,296 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:32:57,297 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:32:57,730 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:32:57,796 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:32:57,797 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:32:57,797 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:32:57,825 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:32:57,838 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:32:57,840 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:33:24,266 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:24] "GET / HTTP/1.1" 200 -
+2026-06-28 12:33:31,279 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:31] "GET / HTTP/1.1" 200 -
+2026-06-28 12:33:36,778 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:36] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-28 12:33:44,721 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:44] "GET /static/css/variables.css HTTP/1.1" 200 -
+2026-06-28 12:33:44,730 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-28 12:33:44,741 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:33:44] "GET /static/js/admin.js HTTP/1.1" 200 -
+2026-06-28 12:34:52,110 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:34:52,178 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:34:52,178 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:34:52,179 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:34:52,210 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:34:52,223 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 12:34:52,223 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:34:52,223 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:34:52,549 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:34:52,619 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:34:52,619 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:34:52,620 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:34:52,648 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:34:52,662 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:34:52,665 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:34:59,708 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET / HTTP/1.1" 200 -
+2026-06-28 12:34:59,735 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-28 12:34:59,736 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/invoices.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,737 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,738 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/deposits_loans.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,739 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/stock.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,741 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/agreements.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,744 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/fundraisers.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,745 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,746 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/ai_console.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,749 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/rewards.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,751 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/admin.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,753 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/css/base.css HTTP/1.1" 200 -
+2026-06-28 12:34:59,754 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "[33mGET /static/css/layout.css HTTP/1.1[0m" 404 -
+2026-06-28 12:34:59,754 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/css/variables.css HTTP/1.1" 200 -
+2026-06-28 12:34:59,754 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/js/settings.js HTTP/1.1" 200 -
+2026-06-28 12:34:59,759 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-06-28 12:34:59,759 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-06-28 12:34:59,761 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:34:59] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2026-06-28 12:35:00,965 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "GET / HTTP/1.1" 200 -
+2026-06-28 12:35:00,985 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,986 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,987 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,988 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,993 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,994 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,995 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,997 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,998 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:00,998 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:00] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,002 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,004 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,011 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,012 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[33mGET /static/css/layout.css HTTP/1.1[0m" 404 -
+2026-06-28 12:35:01,014 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,015 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,017 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:01,018 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:01] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,042 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "GET / HTTP/1.1" 200 -
+2026-06-28 12:35:05,059 [INFO] Thread-44 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,061 [INFO] Thread-43 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,063 [INFO] Thread-45 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,063 [INFO] Thread-46 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,065 [INFO] Thread-47 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,066 [INFO] Thread-48 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,068 [INFO] Thread-49 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,070 [INFO] Thread-50 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,073 [INFO] Thread-52 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,074 [INFO] Thread-53 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,075 [INFO] Thread-51 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,074 [INFO] Thread-54 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,078 [INFO] Thread-56 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,076 [INFO] Thread-55 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,080 [INFO] Thread-57 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[33mGET /static/css/layout.css HTTP/1.1[0m" 404 -
+2026-06-28 12:35:05,083 [INFO] Thread-59 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,084 [INFO] Thread-58 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,084 [INFO] Thread-60 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,720 [INFO] Thread-61 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "GET / HTTP/1.1" 200 -
+2026-06-28 12:35:05,739 [INFO] Thread-63 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,740 [INFO] Thread-62 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,742 [INFO] Thread-65 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,741 [INFO] Thread-64 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,744 [INFO] Thread-66 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,745 [INFO] Thread-67 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,748 [INFO] Thread-68 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,751 [INFO] Thread-69 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,752 [INFO] Thread-71 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,753 [INFO] Thread-70 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,755 [INFO] Thread-73 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,757 [INFO] Thread-74 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,757 [INFO] Thread-75 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,755 [INFO] Thread-72 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,759 [INFO] Thread-76 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[33mGET /static/css/layout.css HTTP/1.1[0m" 404 -
+2026-06-28 12:35:05,760 [INFO] Thread-77 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,762 [INFO] Thread-78 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:05,764 [INFO] Thread-79 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:05] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,053 [INFO] Thread-80 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "GET / HTTP/1.1" 200 -
+2026-06-28 12:35:06,069 [INFO] Thread-82 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,070 [INFO] Thread-81 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,071 [INFO] Thread-83 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,073 [INFO] Thread-85 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,073 [INFO] Thread-84 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,075 [INFO] Thread-86 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,077 [INFO] Thread-87 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,077 [INFO] Thread-88 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,080 [INFO] Thread-90 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,080 [INFO] Thread-89 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,083 [INFO] Thread-91 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,084 [INFO] Thread-92 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,088 [INFO] Thread-95 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[33mGET /static/css/layout.css HTTP/1.1[0m" 404 -
+2026-06-28 12:35:06,089 [INFO] Thread-94 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,090 [INFO] Thread-93 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,091 [INFO] Thread-96 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,092 [INFO] Thread-97 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:35:06,093 [INFO] Thread-98 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:35:06] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,944 [INFO] Thread-99 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:22,966 [INFO] Thread-100 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,966 [INFO] Thread-103 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,967 [INFO] Thread-101 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,968 [INFO] Thread-104 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,968 [INFO] Thread-102 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,970 [INFO] Thread-105 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,973 [INFO] Thread-106 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,974 [INFO] Thread-107 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,976 [INFO] Thread-108 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,977 [INFO] Thread-109 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,979 [INFO] Thread-110 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,980 [INFO] Thread-111 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,985 [INFO] Thread-112 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,987 [INFO] Thread-113 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,988 [INFO] Thread-114 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,990 [INFO] Thread-116 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:22,991 [INFO] Thread-115 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-06-28 12:38:22,992 [INFO] Thread-117 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:22] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:25,221 [INFO] Thread-118 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:25] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-06-28 12:38:34,520 [INFO] Thread-119 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:34,540 [INFO] Thread-121 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,541 [INFO] Thread-120 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,543 [INFO] Thread-122 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,543 [INFO] Thread-123 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,545 [INFO] Thread-124 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,547 [INFO] Thread-125 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,549 [INFO] Thread-126 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,550 [INFO] Thread-127 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,552 [INFO] Thread-128 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,553 [INFO] Thread-129 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,554 [INFO] Thread-130 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,555 [INFO] Thread-131 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,561 [INFO] Thread-132 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,562 [INFO] Thread-133 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,564 [INFO] Thread-134 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,566 [INFO] Thread-135 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,566 [INFO] Thread-136 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:34,569 [INFO] Thread-137 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:34] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,408 [INFO] Thread-138 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:35,424 [INFO] Thread-140 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,424 [INFO] Thread-139 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,426 [INFO] Thread-141 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,427 [INFO] Thread-142 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,429 [INFO] Thread-143 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,429 [INFO] Thread-144 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,432 [INFO] Thread-145 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,433 [INFO] Thread-146 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,435 [INFO] Thread-147 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,436 [INFO] Thread-148 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,438 [INFO] Thread-149 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,440 [INFO] Thread-150 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,441 [INFO] Thread-151 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,442 [INFO] Thread-152 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,444 [INFO] Thread-153 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,446 [INFO] Thread-154 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,448 [INFO] Thread-155 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:35,449 [INFO] Thread-156 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:35] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,258 [INFO] Thread-157 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:36,275 [INFO] Thread-158 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,276 [INFO] Thread-159 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,278 [INFO] Thread-160 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,278 [INFO] Thread-161 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,281 [INFO] Thread-162 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,283 [INFO] Thread-163 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,292 [INFO] Thread-165 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,295 [INFO] Thread-164 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,296 [INFO] Thread-166 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,298 [INFO] Thread-167 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,304 [INFO] Thread-169 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,307 [INFO] Thread-170 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,305 [INFO] Thread-168 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,309 [INFO] Thread-171 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,311 [INFO] Thread-172 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,312 [INFO] Thread-173 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,317 [INFO] Thread-175 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,318 [INFO] Thread-174 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,709 [INFO] Thread-176 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:36,729 [INFO] Thread-177 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,730 [INFO] Thread-178 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,732 [INFO] Thread-180 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,732 [INFO] Thread-179 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,735 [INFO] Thread-181 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,735 [INFO] Thread-182 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,740 [INFO] Thread-184 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,740 [INFO] Thread-183 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,741 [INFO] Thread-186 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,741 [INFO] Thread-185 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,743 [INFO] Thread-187 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,745 [INFO] Thread-188 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,752 [INFO] Thread-189 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,752 [INFO] Thread-190 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,753 [INFO] Thread-191 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,755 [INFO] Thread-192 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,756 [INFO] Thread-193 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:36,757 [INFO] Thread-194 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:36] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,088 [INFO] Thread-195 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:37,106 [INFO] Thread-197 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,106 [INFO] Thread-196 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,108 [INFO] Thread-198 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,110 [INFO] Thread-199 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,112 [INFO] Thread-201 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,113 [INFO] Thread-202 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,114 [INFO] Thread-200 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,117 [INFO] Thread-204 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,117 [INFO] Thread-205 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,119 [INFO] Thread-203 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,120 [INFO] Thread-207 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,122 [INFO] Thread-206 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,122 [INFO] Thread-208 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,125 [INFO] Thread-209 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,124 [INFO] Thread-210 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,127 [INFO] Thread-212 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,125 [INFO] Thread-211 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,128 [INFO] Thread-213 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,478 [INFO] Thread-214 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:37,495 [INFO] Thread-215 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,497 [INFO] Thread-216 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,500 [INFO] Thread-217 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,500 [INFO] Thread-219 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,501 [INFO] Thread-218 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,505 [INFO] Thread-222 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,505 [INFO] Thread-223 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,505 [INFO] Thread-221 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,508 [INFO] Thread-225 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,509 [INFO] Thread-224 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,509 [INFO] Thread-220 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,511 [INFO] Thread-227 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,511 [INFO] Thread-226 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,513 [INFO] Thread-228 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,514 [INFO] Thread-229 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,517 [INFO] Thread-230 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,518 [INFO] Thread-231 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:37,519 [INFO] Thread-232 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:37] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:46,425 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:38:46,489 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:38:46,489 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:38:46,490 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:38:46,518 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:38:46,532 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 12:38:46,532 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:38:46,532 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:38:46,917 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:38:46,982 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:38:46,983 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:38:46,983 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:38:47,011 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:38:47,026 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:38:47,029 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:38:49,759 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:49,784 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,785 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,786 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,790 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,791 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,788 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,797 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,795 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,795 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,798 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,800 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,799 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,807 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,807 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,808 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,809 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,811 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:49,812 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:49] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,545 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "GET / HTTP/1.1" 200 -
+2026-06-28 12:38:50,561 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,561 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,566 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,566 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,567 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,570 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,571 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,573 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,576 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,578 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,579 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,581 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,582 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,583 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,584 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,586 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,587 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:38:50,588 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:38:50] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:41:34,110 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:41:34] "GET / HTTP/1.1" 200 -
+2026-06-28 12:46:29,908 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:46:29,970 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:46:29,970 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:46:29,970 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:46:29,998 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:46:30,013 [INFO] MainThread: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-28 12:46:30,013 [INFO] MainThread: [33mPress CTRL+C to quit[0m
+2026-06-28 12:46:30,014 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:46:30,331 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:46:30,400 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:46:30,401 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:46:30,401 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:46:30,429 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:46:30,443 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:46:30,446 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:48:20,615 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET / HTTP/1.1" 200 -
+2026-06-28 12:48:20,636 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,649 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/variables.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,655 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/deposits_loans.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,654 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/stock.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,656 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/agreements.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,656 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/invoices.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,658 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,671 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/base.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,680 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,681 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,682 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/layout.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,690 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/css/components.css HTTP/1.1" 200 -
+2026-06-28 12:48:20,692 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/fundraisers.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,698 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,699 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/ai_console.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,703 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/admin.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,703 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/rewards.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,703 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "GET /static/js/settings.js HTTP/1.1" 200 -
+2026-06-28 12:48:20,906 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-28 12:48:49,368 [INFO] Thread-24 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 12:48:49,387 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:49] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:48:49,412 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:49] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:48:49,419 [INFO] Thread-26 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 3
+2026-06-28 12:48:49,432 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:48:49] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 12:49:32,889 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:49:32] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 12:49:32,889 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:49:32] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 12:50:50,795 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:50:50] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:50:50,804 [INFO] Thread-30 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 3
+2026-06-28 12:50:50,816 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:50:50] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 12:52:22,210 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "GET / HTTP/1.1" 200 -
+2026-06-28 12:52:22,247 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,250 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,252 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,251 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,255 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,257 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,258 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,260 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,262 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,266 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,267 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,271 [INFO] Thread-43 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,278 [INFO] Thread-44 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,280 [INFO] Thread-45 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,283 [INFO] Thread-47 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,281 [INFO] Thread-46 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,284 [INFO] Thread-48 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,287 [INFO] Thread-49 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:52:22,862 [INFO] Thread-50 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 12:52:22,879 [INFO] Thread-50 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:52:22,895 [INFO] Thread-51 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:52:22,898 [INFO] Thread-52 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 12:52:22,910 [INFO] Thread-52 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:22] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 12:52:28,506 [INFO] Thread-53 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:28] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 12:52:28,507 [INFO] Thread-54 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:28] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 12:52:28,843 [INFO] Thread-55 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:28] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 12:52:29,201 [INFO] Thread-56 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:29] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 12:52:29,662 [INFO] Thread-57 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:29] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 12:52:33,124 [INFO] Thread-58 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:33] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-06-28 12:52:36,577 [INFO] Thread-59 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:36] "POST /api/ai/chat HTTP/1.1" 200 -
+2026-06-28 12:52:42,594 [INFO] Thread-60 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:42] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 12:52:43,457 [INFO] Thread-61 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:43] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 12:52:46,015 [INFO] Thread-62 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:52:46] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 12:53:40,737 [INFO] Thread-63 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:53:40] "[31m[1mPOST /api/settings/2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:53:43,512 [INFO] Thread-64 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:53:43] "[31m[1mPOST /api/settings/2fa HTTP/1.1[0m" 400 -
+2026-06-28 12:55:19,291 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 12:55:19,395 [INFO] MainThread:  * Restarting with stat
+2026-06-28 12:55:19,710 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 12:55:19,768 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 12:55:19,769 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 12:55:19,769 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 12:55:19,796 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 12:55:19,809 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 12:55:19,812 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 12:55:51,290 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "GET / HTTP/1.1" 200 -
+2026-06-28 12:55:51,312 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,322 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,333 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,334 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,334 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,335 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,335 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,336 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,356 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,358 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,359 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,360 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,361 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,361 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,375 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,377 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,380 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:55:51,380 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:55:51] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,745 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "GET / HTTP/1.1" 200 -
+2026-06-28 12:57:12,768 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,777 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,779 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,778 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,779 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,781 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,778 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,799 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,800 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,804 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,805 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,808 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,809 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,820 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,821 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,822 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,825 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:57:12,825 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:57:12] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,046 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "GET / HTTP/1.1" 200 -
+2026-06-28 12:59:09,062 [INFO] Thread-43 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,063 [INFO] Thread-44 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,072 [INFO] Thread-45 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,084 [INFO] Thread-49 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,086 [INFO] Thread-46 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,086 [INFO] Thread-48 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,088 [INFO] Thread-47 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,088 [INFO] Thread-51 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,088 [INFO] Thread-50 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,090 [INFO] Thread-52 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,103 [INFO] Thread-55 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,105 [INFO] Thread-54 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,106 [INFO] Thread-56 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,107 [INFO] Thread-57 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,109 [INFO] Thread-58 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,108 [INFO] Thread-53 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,121 [INFO] Thread-59 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:09,122 [INFO] Thread-60 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:09] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 12:59:13,085 [INFO] Thread-61 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 12:59:13,101 [INFO] Thread-61 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:13] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 12:59:13,154 [INFO] Thread-62 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:13] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 12:59:13,160 [INFO] Thread-63 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 3
+2026-06-28 12:59:13,172 [INFO] Thread-63 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 12:59:13] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:02:47,487 [INFO] Thread-66 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:02:47,502 [INFO] Thread-66 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:02:47] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:02:47,541 [INFO] Thread-67 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:02:47] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 13:02:47,558 [INFO] Thread-68 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:02:47] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 13:02:47,575 [INFO] Thread-69 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:02:47] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 13:03:39,635 [INFO] Thread-70 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "GET / HTTP/1.1" 200 -
+2026-06-28 13:03:39,656 [INFO] Thread-71 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,657 [INFO] Thread-72 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,661 [INFO] Thread-73 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,661 [INFO] Thread-74 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,662 [INFO] Thread-75 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,666 [INFO] Thread-77 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,667 [INFO] Thread-76 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,670 [INFO] Thread-79 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,667 [INFO] Thread-78 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,671 [INFO] Thread-80 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,673 [INFO] Thread-81 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,675 [INFO] Thread-82 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,679 [INFO] Thread-83 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,680 [INFO] Thread-84 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,681 [INFO] Thread-85 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,683 [INFO] Thread-86 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,686 [INFO] Thread-87 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:39,687 [INFO] Thread-88 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:39] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 13:03:40,590 [INFO] Thread-89 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 13:03:40,604 [INFO] Thread-89 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:40] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:03:40,621 [INFO] Thread-90 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:40] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:03:40,625 [INFO] Thread-91 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:03:40,637 [INFO] Thread-91 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:40] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:03:41,864 [INFO] Thread-92 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:41] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 13:03:44,199 [INFO] Thread-93 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:03:44] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 13:04:37,136 [INFO] Thread-94 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:37] "POST /api/settings/2fa HTTP/1.1" 200 -
+2026-06-28 13:04:43,792 [INFO] Thread-95 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:43] "POST /api/logout HTTP/1.1" 200 -
+2026-06-28 13:04:47,313 [INFO] Thread-96 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 13:04:47,324 [INFO] Thread-96 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:47] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:04:55,196 [INFO] Thread-97 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:55] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 13:04:55,211 [INFO] Thread-98 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:55] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:04:55,217 [INFO] Thread-99 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:04:55,227 [INFO] Thread-99 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:55] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:04:58,236 [INFO] Thread-100 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:58] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:04:59,455 [INFO] Thread-101 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:59] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:04:59,922 [INFO] Thread-102 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:04:59] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 13:05:00,941 [INFO] Thread-103 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:00] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 13:05:00,952 [INFO] Thread-104 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:00] "[35m[1mGET /api/stocks/history?symbol=AMD HTTP/1.1[0m" 500 -
+2026-06-28 13:05:00,959 [INFO] Thread-105 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:00] "GET /api/stocks/portfolio HTTP/1.1" 200 -
+2026-06-28 13:05:01,419 [INFO] Thread-106 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:01] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:05:01,420 [INFO] Thread-107 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:01] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:05:01,845 [INFO] Thread-108 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:01] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:05:01,848 [INFO] Thread-109 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:01] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:05:02,255 [INFO] Thread-110 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:02] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:05:02,256 [INFO] Thread-111 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:02] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:05:03,310 [INFO] Thread-112 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:03] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:05:03,314 [INFO] Thread-113 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:05:03,326 [INFO] Thread-113 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:05:03] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:07:34,323 [INFO] Thread-115 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:07:34,339 [INFO] Thread-115 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:34] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:07:34,354 [INFO] Thread-116 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:34] "GET /api/users HTTP/1.1" 200 -
+2026-06-28 13:07:34,367 [INFO] Thread-117 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:34] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:07:55,139 [INFO] Thread-118 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "GET / HTTP/1.1" 200 -
+2026-06-28 13:07:55,158 [INFO] Thread-120 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/invoices.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,159 [INFO] Thread-119 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-28 13:07:55,160 [INFO] Thread-122 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/stock.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,164 [INFO] Thread-121 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/deposits_loans.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,165 [INFO] Thread-123 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/agreements.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,166 [INFO] Thread-124 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/fundraisers.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,169 [INFO] Thread-125 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-06-28 13:07:55,170 [INFO] Thread-126 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/ai_console.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,172 [INFO] Thread-128 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/settings.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,173 [INFO] Thread-127 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/rewards.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,175 [INFO] Thread-129 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/js/admin.js HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,176 [INFO] Thread-130 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,181 [INFO] Thread-131 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/variables.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,182 [INFO] Thread-132 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,184 [INFO] Thread-134 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,185 [INFO] Thread-133 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/layout.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,188 [INFO] Thread-135 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:55,188 [INFO] Thread-136 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:55] "[36mGET /static/css/components.css HTTP/1.1[0m" 304 -
+2026-06-28 13:07:56,344 [INFO] Thread-137 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 13:07:56,353 [INFO] Thread-137 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:07:56] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:08:06,887 [INFO] Thread-138 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:06] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 13:08:06,902 [INFO] Thread-139 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:06] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:08:06,905 [INFO] Thread-140 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:08:06,916 [INFO] Thread-140 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:06] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:08:10,049 [INFO] Thread-141 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:10] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 13:08:12,595 [INFO] Thread-142 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:12] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:08:13,320 [INFO] Thread-143 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:13] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 13:08:14,097 [INFO] Thread-144 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:14] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 13:08:14,107 [INFO] Thread-145 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:14] "[35m[1mGET /api/stocks/history?symbol=AMD HTTP/1.1[0m" 500 -
+2026-06-28 13:08:14,115 [INFO] Thread-146 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:14] "GET /api/stocks/portfolio HTTP/1.1" 200 -
+2026-06-28 13:08:14,720 [INFO] Thread-148 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:14] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:08:14,720 [INFO] Thread-147 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:14] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:08:15,153 [INFO] Thread-149 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:15] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:08:15,153 [INFO] Thread-150 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:15] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:08:15,917 [INFO] Thread-151 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:15] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:08:15,919 [INFO] Thread-152 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:08:15,930 [INFO] Thread-152 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:15] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:08:19,041 [INFO] Thread-153 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:19] "GET /api/users HTTP/1.1" 200 -
+2026-06-28 13:08:24,638 [INFO] Thread-155 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:24] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:08:25,864 [INFO] Thread-156 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:25] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:29,192 [INFO] Thread-157 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:29] "[31m[1mPOST /api/chat/send HTTP/1.1[0m" 400 -
+2026-06-28 13:08:30,872 [INFO] Thread-158 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:30] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:35,873 [INFO] Thread-159 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:35] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:40,872 [INFO] Thread-160 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:40] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:45,873 [INFO] Thread-161 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:45] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:50,872 [INFO] Thread-162 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:50] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:08:56,225 [INFO] Thread-163 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:08:56] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:01,226 [INFO] Thread-164 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:01] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:06,226 [INFO] Thread-165 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:06] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:06,674 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 13:09:06,776 [INFO] MainThread:  * Restarting with stat
+2026-06-28 13:09:07,094 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 13:09:07,177 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 13:09:07,178 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 13:09:07,178 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 13:09:07,207 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 13:09:07,219 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 13:09:07,222 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 13:09:11,229 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:11] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:16,226 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:16] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:21,225 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:21] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:26,226 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:26] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:31,226 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:31] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:36,226 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:36] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:41,226 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:41] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:46,226 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:46] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:51,226 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:51] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:09:56,552 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:09:56] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:01,553 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:01] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:06,552 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:06] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:11,552 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:11] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:16,552 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:16] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:21,552 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:21] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:26,553 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:26] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:31,553 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:31] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:36,553 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:36] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:41,553 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:41] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:46,552 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:46] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:51,554 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:51] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:10:56,553 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:10:56] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:01,554 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:01] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:06,553 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:06] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:11,553 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:11] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:16,554 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:16] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:21,554 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:21] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:26,555 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:26] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:11:29,701 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 13:11:29,838 [INFO] MainThread:  * Restarting with stat
+2026-06-28 13:11:30,161 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 13:11:30,219 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 13:11:30,220 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 13:11:30,220 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 13:11:30,259 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 13:11:30,273 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 13:11:30,276 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 13:11:31,561 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:11:36,560 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:36] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:11:41,560 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:41] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:11:46,560 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:46] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:11:51,560 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:51] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:11:52,316 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:52] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+2026-06-28 13:11:52,318 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:52] "[31m[1mGET /api/profile HTTP/1.1[0m" 401 -
+2026-06-28 13:11:52,321 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:52] "[31m[1mGET /api/chat/messages?partner_id=2 HTTP/1.1[0m" 401 -
+2026-06-28 13:11:52,324 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:52] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2026-06-28 13:11:52,328 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:52] "[33mGET /api/invoices HTTP/1.1[0m" 404 -
+2026-06-28 13:11:56,561 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:11:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:01,560 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:06,560 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:11,560 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:16,560 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:16] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:21,561 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:21] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:26,560 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:26] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:31,561 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:36,562 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:36] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:37,676 [INFO] Thread-23 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:12:37,693 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:12:37,713 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "GET /api/chat/messages?partner_id=2 HTTP/1.1" 200 -
+2026-06-28 13:12:37,731 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "GET /api/users HTTP/1.1" 200 -
+2026-06-28 13:12:37,734 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "[33mGET /api/deposits HTTP/1.1[0m" 404 -
+2026-06-28 13:12:37,736 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "[33mGET /api/fundraisers HTTP/1.1[0m" 404 -
+2026-06-28 13:12:37,739 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "[33mGET /api/stocks HTTP/1.1[0m" 404 -
+2026-06-28 13:12:37,742 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:37] "[33mGET /api/loans HTTP/1.1[0m" 404 -
+2026-06-28 13:12:41,586 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:41] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:46,586 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:46] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:51,586 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:51] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:12:56,586 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:12:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:01,586 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:06,586 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:11,586 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:16,587 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:16] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:21,588 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:21] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:26,587 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:26] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:31,590 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:32,049 [INFO] Thread-41 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:13:32,066 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:13:32,080 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:13:32,093 [INFO] Thread-43 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:13:32,107 [INFO] Thread-44 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 13:13:32,120 [INFO] Thread-45 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:13:32,133 [INFO] Thread-46 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:32] "GET /api/stocks/history?symbol=BTC HTTP/1.1" 200 -
+2026-06-28 13:13:36,589 [INFO] Thread-47 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:36] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:40,906 [INFO] Thread-48 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:13:40,924 [INFO] Thread-48 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:40] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:13:40,927 [INFO] Thread-49 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:40] "[31m[1mPOST /api/chat/send HTTP/1.1[0m" 400 -
+2026-06-28 13:13:40,941 [INFO] Thread-50 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:40] "GET /api/chat/messages?partner_id=2 HTTP/1.1" 200 -
+2026-06-28 13:13:41,708 [INFO] Thread-51 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:41] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:46,709 [INFO] Thread-52 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:46] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:51,708 [INFO] Thread-53 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:51] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:13:56,710 [INFO] Thread-54 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:13:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:01,709 [INFO] Thread-55 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:05,173 [INFO] Thread-56 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:14:05,190 [INFO] Thread-56 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:05] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:14:05,212 [INFO] Thread-57 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:05] "POST /api/chat/send HTTP/1.1" 200 -
+2026-06-28 13:14:05,231 [INFO] Thread-58 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:05] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:14:06,710 [INFO] Thread-59 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:11,709 [INFO] Thread-60 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:16,709 [INFO] Thread-61 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:16] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:21,709 [INFO] Thread-62 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:21] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:26,109 [INFO] Thread-63 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:14:26,127 [INFO] Thread-63 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:26] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:14:26,150 [INFO] Thread-64 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:26] "POST /api/chat/send HTTP/1.1" 200 -
+2026-06-28 13:14:26,166 [INFO] Thread-65 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:26] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:14:26,710 [INFO] Thread-66 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:26] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:31,710 [INFO] Thread-67 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:36,711 [INFO] Thread-68 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:36] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:41,710 [INFO] Thread-69 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:41] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:46,710 [INFO] Thread-70 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:46] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:51,711 [INFO] Thread-71 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:51] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:56,710 [INFO] Thread-72 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:14:59,210 [INFO] Thread-73 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:14:59,224 [INFO] Thread-73 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:59] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:14:59,240 [INFO] Thread-74 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:14:59] "[35m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 500 -
+2026-06-28 13:15:01,710 [INFO] Thread-75 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:06,710 [INFO] Thread-76 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:11,711 [INFO] Thread-77 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:16,715 [INFO] Thread-78 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:16] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:21,717 [INFO] Thread-79 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:21] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:26,714 [INFO] Thread-80 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:26] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:31,714 [INFO] Thread-81 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:37,246 [INFO] Thread-82 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:37] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:42,248 [INFO] Thread-83 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:42] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:47,258 [INFO] Thread-84 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:47] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:52,259 [INFO] Thread-85 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:52] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:15:57,259 [INFO] Thread-86 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:15:57] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:02,269 [INFO] Thread-87 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:02] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:07,280 [INFO] Thread-88 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:07] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:12,831 [INFO] Thread-89 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:12] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:18,376 [INFO] Thread-90 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:18] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:23,379 [INFO] Thread-91 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:23] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:28,378 [INFO] Thread-92 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:28] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:33,379 [INFO] Thread-93 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:33] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:38,918 [INFO] Thread-94 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:38] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:43,917 [INFO] Thread-95 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:43] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:49,454 [INFO] Thread-96 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:49] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:54,455 [INFO] Thread-97 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:54] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:16:59,455 [INFO] Thread-98 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:16:59] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:04,461 [INFO] Thread-99 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:04] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:09,471 [INFO] Thread-100 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:09] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:14,482 [INFO] Thread-101 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:14] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:20,032 [INFO] Thread-102 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:20] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:25,033 [INFO] Thread-103 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:25] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:30,032 [INFO] Thread-104 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:30] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:35,038 [INFO] Thread-105 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:35] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:40,049 [INFO] Thread-106 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:40] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:45,600 [INFO] Thread-107 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:45] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:50,602 [INFO] Thread-108 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:50] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:17:56,153 [INFO] Thread-109 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:17:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:01,156 [INFO] Thread-110 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:06,170 [INFO] Thread-111 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:11,175 [INFO] Thread-112 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:16,177 [INFO] Thread-113 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:16] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:21,179 [INFO] Thread-114 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:21] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:26,180 [INFO] Thread-115 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:26] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:31,187 [INFO] Thread-116 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:31] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:36,193 [INFO] Thread-117 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:36] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:41,200 [INFO] Thread-118 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:41] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:46,200 [INFO] Thread-119 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:46] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:51,202 [INFO] Thread-120 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:51] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:18:56,944 [INFO] Thread-121 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:18:56] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:01,943 [INFO] Thread-122 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:01] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:06,942 [INFO] Thread-123 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:06] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:12,035 [INFO] Thread-124 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:12] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:17,035 [INFO] Thread-125 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:17] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:22,035 [INFO] Thread-126 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:22] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:27,156 [INFO] Thread-127 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:27] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:32,155 [INFO] Thread-128 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:32] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:37,260 [INFO] Thread-129 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:37] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:42,261 [INFO] Thread-130 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:42] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:47,261 [INFO] Thread-131 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:47] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:52,265 [INFO] Thread-132 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:52] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:19:53,976 [INFO] MainThread:  * Detected change in '/home/neon/PythonProject/Bank/web_server.py', reloading
+2026-06-28 13:19:54,065 [INFO] MainThread:  * Restarting with stat
+2026-06-28 13:19:54,375 [INFO] MainThread: Rozpoczęcie migracji bazy danych...
+2026-06-28 13:19:54,441 [INFO] MainThread: Migracja bazy danych zakończona pomyślnie.
+2026-06-28 13:19:54,442 [INFO] Thread-1 (_stock_simulation_loop): Uruchamianie wątku symulacji giełdy...
+2026-06-28 13:19:54,442 [INFO] Thread-2 (_hourly_deposit_loop): Uruchamianie wątku rozliczania lokat godzinowych...
+2026-06-28 13:19:54,470 [INFO] MainThread: Uruchamianie serwera webowego Flask na 127.0.0.1:5000...
+2026-06-28 13:19:54,484 [WARNING] MainThread:  * Debugger is active!
+2026-06-28 13:19:54,486 [INFO] MainThread:  * Debugger PIN: 451-101-186
+2026-06-28 13:19:57,262 [INFO] Thread-4 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:19:57] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:02,262 [INFO] Thread-5 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:02] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:07,266 [INFO] Thread-6 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:07] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:12,262 [INFO] Thread-7 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:12] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:17,262 [INFO] Thread-8 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:17] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:22,261 [INFO] Thread-9 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:22] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:27,264 [INFO] Thread-10 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:27] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:32,263 [INFO] Thread-11 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:32] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:37,262 [INFO] Thread-12 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:37] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:42,262 [INFO] Thread-13 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:42] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:47,263 [INFO] Thread-14 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:47] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:50,268 [INFO] Thread-15 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:20:50,281 [INFO] Thread-15 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:50] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:20:52,262 [INFO] Thread-16 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:52] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:20:57,893 [INFO] Thread-17 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:20:57] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:02,890 [INFO] Thread-18 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:02] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:07,891 [INFO] Thread-19 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:07] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:11,005 [INFO] Thread-20 (process_request_thread): Web API: Próba logowania dla email: jan@testowy.pl
+2026-06-28 13:21:11,021 [INFO] Thread-20 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:21:11,048 [INFO] Thread-21 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:11,088 [INFO] Thread-22 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "POST /api/chat/send HTTP/1.1" 200 -
+2026-06-28 13:21:11,117 [INFO] Thread-23 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:21:11,145 [INFO] Thread-24 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:21:11,176 [INFO] Thread-25 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:11] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 13:21:13,193 [INFO] Thread-26 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:13] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:18,192 [INFO] Thread-27 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:18] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:23,190 [INFO] Thread-28 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:23] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:28,191 [INFO] Thread-29 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:28] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:33,191 [INFO] Thread-30 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:33] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:38,191 [INFO] Thread-31 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:38] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:43,191 [INFO] Thread-32 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:43] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:48,192 [INFO] Thread-33 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:48] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:53,193 [INFO] Thread-34 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:53] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:21:58,194 [INFO] Thread-35 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:21:58] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:03,192 [INFO] Thread-36 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:03] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:08,192 [INFO] Thread-37 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:08] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:13,193 [INFO] Thread-38 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:13] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:18,193 [INFO] Thread-39 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:18] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:23,192 [INFO] Thread-40 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:23] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:28,192 [INFO] Thread-41 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:28] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:33,194 [INFO] Thread-42 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:33] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:38,199 [INFO] Thread-43 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:38] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:42,092 [INFO] Thread-44 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:42] "GET /api/chat/messages?partner_id=2 HTTP/1.1" 200 -
+2026-06-28 13:22:42,413 [INFO] Thread-45 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:42] "GET /api/chat/messages?partner_id=1 HTTP/1.1" 200 -
+2026-06-28 13:22:44,927 [INFO] Thread-46 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:44] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:22:44,934 [INFO] Thread-47 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:22:44,946 [INFO] Thread-47 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:44] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:22:46,159 [INFO] Thread-48 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:46] "POST /api/logout HTTP/1.1" 200 -
+2026-06-28 13:22:47,416 [INFO] Thread-49 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:47] "[31m[1mGET /api/chat/messages?partner_id=1 HTTP/1.1[0m" 401 -
+2026-06-28 13:22:51,871 [INFO] Thread-50 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 13:22:51,882 [INFO] Thread-50 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:22:51] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:23:18,404 [INFO] Thread-51 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:18] "POST /api/login/verify-2fa HTTP/1.1" 200 -
+2026-06-28 13:23:18,420 [INFO] Thread-52 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:18] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:23:18,423 [INFO] Thread-53 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:23:18,435 [INFO] Thread-53 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:18] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:23:21,499 [INFO] Thread-54 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:21] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:23:21,500 [INFO] Thread-55 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:21] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:23:21,985 [INFO] Thread-56 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:21] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:23:21,985 [INFO] Thread-57 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:21] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:23:23,744 [INFO] Thread-58 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:23] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:23:24,204 [INFO] Thread-59 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:24] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:23:24,934 [INFO] Thread-60 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:24] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:23:25,342 [INFO] Thread-61 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:25] "GET /api/agreements/list HTTP/1.1" 200 -
+2026-06-28 13:23:28,756 [INFO] Thread-62 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:28] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:23:28,756 [INFO] Thread-63 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:28] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:23:29,132 [INFO] Thread-64 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:29] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:23:29,132 [INFO] Thread-65 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:29] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:23:29,606 [INFO] Thread-66 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:29] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:23:29,607 [INFO] Thread-67 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:29] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:23:31,058 [INFO] Thread-68 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:31] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 13:23:33,537 [INFO] Thread-69 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:33] "GET /api/rewards HTTP/1.1" 200 -
+2026-06-28 13:23:35,654 [INFO] Thread-70 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:35] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:23:42,844 [INFO] Thread-72 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:42] "GET /api/fundraisers/list HTTP/1.1" 200 -
+2026-06-28 13:23:43,964 [INFO] Thread-73 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:43] "GET /api/users/list HTTP/1.1" 200 -
+2026-06-28 13:23:47,210 [INFO] Thread-74 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:47] "GET /api/profile HTTP/1.1" 200 -
+2026-06-28 13:23:48,538 [INFO] Thread-76 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:48] "GET /api/invoices/sent HTTP/1.1" 200 -
+2026-06-28 13:23:48,538 [INFO] Thread-75 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:48] "GET /api/invoices/received HTTP/1.1" 200 -
+2026-06-28 13:23:48,884 [INFO] Thread-77 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:48] "GET /api/info HTTP/1.1" 200 -
+2026-06-28 13:23:48,886 [INFO] Thread-78 (process_request_thread): Pobieranie historii transakcji dla użytkownika ID 10
+2026-06-28 13:23:48,898 [INFO] Thread-78 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:48] "GET /api/history HTTP/1.1" 200 -
+2026-06-28 13:23:51,043 [INFO] Thread-80 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:51] "GET /api/loans/list HTTP/1.1" 200 -
+2026-06-28 13:23:51,043 [INFO] Thread-79 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:51] "GET /api/deposits/list HTTP/1.1" 200 -
+2026-06-28 13:23:51,784 [INFO] Thread-81 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:51] "GET /api/stocks/list HTTP/1.1" 200 -
+2026-06-28 13:23:51,799 [INFO] Thread-82 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:51] "GET /api/stocks/portfolio HTTP/1.1" 200 -
+2026-06-28 13:23:53,452 [INFO] Thread-83 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:53] "POST /api/logout HTTP/1.1" 200 -
+2026-06-28 13:23:57,044 [INFO] Thread-84 (process_request_thread): Web API: Próba logowania dla email: hxmarek@gmail.com
+2026-06-28 13:23:57,055 [INFO] Thread-84 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:57] "POST /api/login HTTP/1.1" 200 -
+2026-06-28 13:23:59,088 [INFO] Thread-85 (process_request_thread): 127.0.0.1 - - [28/Jun/2026 13:23:59] "[31m[1mPOST /api/login/verify-2fa HTTP/1.1[0m" 400 -

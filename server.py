@@ -328,22 +328,108 @@ class Server:
             logger.error(f"Błąd podczas migracji bazy danych: {e}")
 
     def send_otp_email(self, to_email, code):
-        """Wysyła 6-cyfrowy kod OTP na podany adres e-mail przez Gmail SMTP."""
+        """Wysyła 6-cyfrowy kod OTP na podany adres e-mail przez Gmail SMTP w formacie HTML."""
         import smtplib
         from email.mime.text import MIMEText
         
         subject = "Kod weryfikacyjny 2FA - PathlBank"
-        body = f"""Witaj!
-
-Twoj jednorazowy kod weryfikacyjny 2FA to:
-
-👉 {code} 👈
-
-Kod jest wazny przez 5 minut. Kod moze byc uzyty tylko raz.
-Jesli to nie Ty probowales sie zalogowac, natychmiast zmien haslo.
-
-Pozdrawiamy,
-Zespol PathlBank"""
+        html_body = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {{
+    background-color: #090b10;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #f0f3f8;
+    margin: 0;
+    padding: 0;
+  }}
+  .container {{
+    max-width: 550px;
+    margin: 30px auto;
+    background: #121620;
+    border: 1px solid rgba(0, 242, 254, 0.2);
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 8px 32px 0 rgba(0, 242, 254, 0.08);
+  }}
+  .header {{
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }}
+  .logo {{
+    font-size: 28px;
+    font-weight: bold;
+    color: #00f2fe;
+    text-decoration: none;
+  }}
+  .content {{
+    line-height: 1.6;
+    font-size: 15px;
+    color: #e2e8f0;
+  }}
+  .otp-container {{
+    text-align: center;
+    margin: 30px 0;
+  }}
+  .otp-code {{
+    display: inline-block;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #00f2fe;
+    background: rgba(0, 242, 254, 0.1);
+    border: 2px solid #00f2fe;
+    border-radius: 12px;
+    padding: 10px 25px;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
+  }}
+  .footer {{
+    text-align: center;
+    font-size: 11px;
+    color: #8a99ad;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+    margin-top: 35px;
+  }}
+  .warning {{
+    background: rgba(255, 23, 68, 0.1);
+    border-left: 4px solid #ff1744;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #ff8a9a;
+  }}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="logo">🏦 PathlBank</span>
+    </div>
+    <div class="content">
+      <p style="font-size: 17px; font-weight: bold; color: #ffffff;">Witaj!</p>
+      <p>Otrzymaliśmy próbę logowania do Twojego konta. Twój jednorazowy kod weryfikacyjny 2FA to:</p>
+      <div class="otp-container">
+        <span class="otp-code">{code}</span>
+      </div>
+      <p>Kod jest ważny przez <strong>5 minut</strong>. Kod może być użyty tylko raz.</p>
+      <div class="warning">
+        Jeśli to nie Ty próbowałeś się zalogować, natychmiast zaloguj się do systemu i zmień swoje hasło.
+      </div>
+    </div>
+    <div class="footer">
+      Pozdrawiamy,<br>
+      <strong>Zespół PathlBank</strong><br>
+      <span style="font-size: 10px; color: #64748b;">Ta wiadomość została wygenerowana automatycznie, prosimy na nią nie odpowiadać.</span>
+    </div>
+  </div>
+</body>
+</html>"""
 
         logger.info(f"==================================================")
         logger.info(f"   KOD 2FA DLA {to_email}: {code}   ")
@@ -359,7 +445,7 @@ Zespol PathlBank"""
             return False, "SMTP_NOT_CONFIGURED"
 
         try:
-            msg = MIMEText(body, "plain", "utf-8")
+            msg = MIMEText(html_body, "html", "utf-8")
             msg["Subject"] = subject
             msg["From"] = smtp_user
             msg["To"] = to_email
@@ -409,7 +495,7 @@ Zespol PathlBank"""
             user_obj.email,
             user_obj.pin,
             hashed_pwd,
-            user_obj.saldo or 0,
+            user_obj.saldo or 10000.00,
             card_number,
             getattr(user_obj, 'two_factor_method', 'NONE'),
             getattr(user_obj, 'totp_secret', None)
@@ -585,10 +671,10 @@ Zespol PathlBank"""
         return self.thread_local.conn
 
     def generate_card_number(self):
-        """Generuje unikalny 16-cyfrowy numer karty"""
+        """Generuje unikalny 16-cyfrowy numer karty zaczynający się od 2137"""
         while True:
-            # Generuj 16 cyfr
-            card_number = ''.join([str(random.randint(0, 9)) for _ in range(16)])
+            # Generuj numer zaczynający się od 2137 i 12 losowych cyfr
+            card_number = '2137' + ''.join([str(random.randint(0, 9)) for _ in range(12)])
 
             # Sprawdź czy numer już istnieje w bazie
             sql = "SELECT id FROM users WHERE nr_karty = %s"
@@ -643,7 +729,11 @@ Zespol PathlBank"""
 
     def get_user(self, user_id):
         """Pobierz dane użytkownika po ID"""
-        sql = "SELECT id, imie, nazwisko, email, saldo, nr_karty FROM users WHERE id = %s"
+        sql = """
+            SELECT id, imie, nazwisko, email, saldo, nr_karty,
+                   is_admin, is_company, company_name, company_nip, company_regon, public_key, reward_points
+            FROM users WHERE id = %s
+        """
         result = self.sql(sql, (user_id,), fetch=True)
         if result:
             return {
@@ -652,7 +742,14 @@ Zespol PathlBank"""
                 "nazwisko": result[2],
                 "email": result[3],
                 "saldo": float(result[4]),
-                "nr_karty": result[5]
+                "nr_karty": result[5],
+                "is_admin": int(result[6] or 0),
+                "is_company": bool(result[7]),
+                "company_name": result[8],
+                "company_nip": result[9],
+                "company_regon": result[10],
+                "public_key": result[11],
+                "reward_points": int(result[12] or 0)
             }
         return None
 

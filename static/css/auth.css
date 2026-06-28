@@ -1,0 +1,140 @@
+/* ================= AUTORYZACJA ================= */
+
+#auth-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#auth-container.active {
+    display: flex;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: var(--color-primary-grad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.auth-header .logo i {
+    -webkit-text-fill-color: var(--color-primary);
+}
+
+.auth-header h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.auth-header p {
+    color: var(--color-text-muted);
+}
+
+.auth-form {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-form.active {
+    display: flex;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
+
+.input-group label i {
+    margin-right: 6px;
+}
+
+.input-group input, .input-group select {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 15px;
+    transition: var(--transition-fast);
+}
+
+.input-group input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.25);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.form-hint {
+    font-size: 12px;
+    color: var(--color-text-muted);
+    margin-top: -4px;
+}
+
+.auth-switch {
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-top: 15px;
+}
+
+.auth-switch a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
+.forgot-link {
+    align-self: flex-end;
+    font-size: 13px;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    margin-top: 5px;
+    transition: var(--transition-fast);
+}
+
+.forgot-link:hover {
+    color: var(--color-primary);
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.4);
+}
+
+

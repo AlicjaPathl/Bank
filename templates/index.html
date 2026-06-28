@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PathlBank - Bankowość Przyszłości</title>
+<!-- Google Fonts: Outfit -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- FontAwesome dla ikon -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Arkusz stylów -->
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
+<!-- Logika frontendu -->
+<script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/invoices.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/deposits_loans.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/stock.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/agreements.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/fundraisers.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/chat.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/ai_console.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/rewards.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/settings.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/admin.js') }}" defer></script>
+</head>
+<body>
+<!-- Animowane świecące kule w tle -->
+<div class="bg-glow">
+<div class="glow-circle glow-1"></div>
+<div class="glow-circle glow-2"></div>
+<div class="glow-circle glow-3"></div>
+</div>
+<!-- Pasek powiadomień/alertów -->
+<div id="toast-container"></div>
+<!-- ================= KONTENER AUTORYZACJI ================= -->
+{% include 'components/auth.html' %}
+<!-- ================= KONTENER KOKPITU (DASHBOARD) ================= -->
+<div id="dashboard-container">
+<!-- Panel boczny (Sidebar) -->
+
+{% include 'components/sidebar.html' %}
+
+<!-- Główny obszar roboczy -->
+<main class="main-content">
+<!-- Pasek górny -->
+<header class="top-bar glass-card">
+<h1 id="view-title">Podsumowanie konta</h1>
+<div class="date-display" id="current-date-time">Niedziela, 28 Czerwca 2026</div>
+</header>
+<!-- WIDOK 1: PODSUMOWANIE (DASHBOARD SUMMARY) -->
+
+<!-- WIDOK 2: WYKONAJ PRZELEW -->
+
+<!-- WIDOK: LOKATY I KREDYTY -->
+
+<!-- WIDOK: FAKTURY -->
+
+<!-- WIDOK: GIEŁDA -->
+
+<!-- WIDOK: UMOWY -->
+
+<!-- WIDOK: ZBIÓRKI -->
+
+<!-- WIDOK: CZAT E2E -->
+
+<!-- WIDOK: KONSOLA AI -->
+
+<!-- WIDOK: NAGRODY -->
+
+<!-- WIDOK: USTAWIENIA -->
+
+<!-- WIDOK: PANEL ADMINA -->
+
+
+{% include 'components/views.html' %}
+</main>
+</div>
+{% include 'components/modals.html' %}</body>
+</html>

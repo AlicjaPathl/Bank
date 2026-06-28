@@ -171,11 +171,35 @@
                 <a href="#" class="menu-item" data-view="view-transfer">
                     <i class="fa-solid fa-paper-plane"></i> <span>Przelew</span>
                 </a>
-                <a href="#" class="menu-item" data-view="view-deposit-withdraw">
-                    <i class="fa-solid fa-money-bill-transfer"></i> <span>Wpłata / Wypłata</span>
+                <a href="#" class="menu-item" data-view="view-invoices">
+                    <i class="fa-solid fa-file-invoice-dollar"></i> <span>Faktury</span>
                 </a>
-                <a href="#" class="menu-item" data-view="view-all-users">
-                    <i class="fa-solid fa-users"></i> <span>Użytkownicy</span>
+                <a href="#" class="menu-item" data-view="view-deposits-loans">
+                    <i class="fa-solid fa-piggy-bank"></i> <span>Lokaty i Kredyty</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-stock">
+                    <i class="fa-solid fa-chart-line"></i> <span>Giełda</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-agreements">
+                    <i class="fa-solid fa-file-contract"></i> <span>Umowy</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-fundraisers">
+                    <i class="fa-solid fa-hand-holding-dollar"></i> <span>Zbiórki</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-chat">
+                    <i class="fa-solid fa-comments"></i> <span>Czat E2E</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-ai-console">
+                    <i class="fa-solid fa-terminal"></i> <span>Konsola AI</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-rewards">
+                    <i class="fa-solid fa-gift"></i> <span>Nagrody</span>
+                </a>
+                <a href="#" class="menu-item" data-view="view-settings">
+                    <i class="fa-solid fa-sliders"></i> <span>Ustawienia</span>
+                </a>
+                <a href="#" class="menu-item" id="admin-panel-link" data-view="view-admin" style="display: none;">
+                    <i class="fa-solid fa-user-shield"></i> <span>Panel Admina</span>
                 </a>
             </nav>
 
@@ -290,54 +314,582 @@
                 </div>
             </section>
 
-            <!-- WIDOK 3: WPŁATA / WYPŁATA -->
-            <section id="view-deposit-withdraw" class="view-pane">
+            <!-- WIDOK: LOKATY I KREDYTY -->
+            <section id="view-deposits-loans" class="view-pane">
                 <div class="form-dual-grid">
-                    <!-- Karta Wpłaty -->
+                    <!-- Lokaty -->
                     <div class="glass-card form-container-card">
-                        <h2>Wpłata na konto (Depozyt)</h2>
-                        <p class="subtitle">Wpłać środki na swoje konto bankowe natychmiastowo.</p>
-                        
-                        <form id="deposit-form">
+                        <h2>Lokaty godzinowe</h2>
+                        <p class="subtitle">Zablokuj środki na 1 godzinę, aby otrzymać zysk powiększony o stopy procentowe.</p>
+                        <form id="deposit-create-form">
                             <div class="input-group">
-                                <label for="deposit-amount">Kwota wpłaty (PLN)</label>
-                                <input type="number" id="deposit-amount" min="0.01" step="0.01" required placeholder="0.00">
+                                <label for="deposit-amount-input">Kwota lokaty (min. 100 PLN)</label>
+                                <input type="number" id="deposit-amount-input" min="100" step="0.01" required placeholder="100.00">
                             </div>
                             <button type="submit" class="btn btn-success btn-glow">
-                                <span>Wpłać środki</span> <i class="fa-solid fa-circle-down"></i>
+                                <span>Otwórz lokatę</span> <i class="fa-solid fa-piggy-bank"></i>
+                            </button>
+                        </form>
+                        <div class="margin-top-20" style="margin-top: 20px;">
+                            <h3>Twoje lokaty</h3>
+                            <div class="table-responsive">
+                                <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                    <thead>
+                                        <tr>
+                                            <th>Kwota</th>
+                                            <th>Oprocentowanie</th>
+                                            <th>Wygasa za</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="deposits-rows">
+                                        <!-- Lokaty dynamicznie -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kredyty -->
+                    <div class="glass-card form-container-card">
+                        <h2>Wnioskuj o kredyt</h2>
+                        <p class="subtitle">Szybki kredyt gotówkowy. Kwota jest natychmiast dopisywana do Twojego salda.</p>
+                        <form id="loan-request-form">
+                            <div class="input-group">
+                                <label for="loan-amount-input">Kwota kredytu (PLN)</label>
+                                <input type="number" id="loan-amount-input" min="10" step="1" required placeholder="1000">
+                            </div>
+                            <div class="input-group">
+                                <label for="loan-term-input">Okres spłaty (w miesiącach)</label>
+                                <select id="loan-term-input" class="auth-select" style="width: 100%; background: rgba(0, 0, 0, 0.3); border: 1px solid var(--glass-border); border-radius: 8px; color: #ffffff; padding: 12px; margin-top: 8px;">
+                                    <option value="3">3 miesiące</option>
+                                    <option value="6">6 miesięcy</option>
+                                    <option value="12">12 miesięcy</option>
+                                    <option value="24">24 miesiące</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-danger btn-glow">
+                                <span>Weź kredyt</span> <i class="fa-solid fa-hand-holding-dollar"></i>
+                            </button>
+                        </form>
+                        <div class="margin-top-20" style="margin-top: 20px;">
+                            <h3>Aktywne kredyty</h3>
+                            <div class="table-responsive">
+                                <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                    <thead>
+                                        <tr>
+                                            <th>Kwota</th>
+                                            <th>Do spłaty</th>
+                                            <th>Rata</th>
+                                            <th>Status</th>
+                                            <th>Akcja</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="loans-rows">
+                                        <!-- Kredyty dynamicznie -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: FAKTURY -->
+            <section id="view-invoices" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Wystaw fakturę -->
+                    <div class="glass-card form-container-card">
+                        <h2>Wystaw nową fakturę</h2>
+                        <p class="subtitle">Obciąż innego użytkownika fakturą do opłacenia.</p>
+                        <form id="invoice-issue-form">
+                            <div class="input-group">
+                                <label for="invoice-recipient">Identyfikator odbiorcy (Email / Nr karty / ID)</label>
+                                <input type="text" id="invoice-recipient" required placeholder="np. marek@domain.com">
+                            </div>
+                            <div class="input-group">
+                                <label for="invoice-amount">Kwota faktury (PLN)</label>
+                                <input type="number" id="invoice-amount" min="0.01" step="0.01" required placeholder="0.00">
+                            </div>
+                            <div class="input-group">
+                                <label for="invoice-title">Tytuł faktury (np. Za projekt strony)</label>
+                                <input type="text" id="invoice-title" required placeholder="Wpisz tytuł faktury">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                <span>Wystaw fakturę</span> <i class="fa-solid fa-file-invoice-dollar"></i>
                             </button>
                         </form>
                     </div>
 
-                    <!-- Karta Wypłaty -->
+                    <!-- Lista faktur -->
                     <div class="glass-card form-container-card">
-                        <h2>Wypłata z konta (Withdraw)</h2>
-                        <p class="subtitle">Wypłać środki ze swojego salda na konto zewnętrzne.</p>
+                        <h2>Faktury przychodzące (Do opłaty)</h2>
+                        <div class="table-responsive">
+                            <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Wystawca</th>
+                                        <th>Tytuł</th>
+                                        <th>Kwota</th>
+                                        <th>Status</th>
+                                        <th>Akcja</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="invoices-received-rows">
+                                    <!-- Dynamicznie -->
+                                </tbody>
+                            </table>
+                        </div>
                         
-                        <form id="withdraw-form">
-                            <div class="input-group">
-                                <label for="withdraw-amount">Kwota wypłaty (PLN)</label>
-                                <input type="number" id="withdraw-amount" min="0.01" step="0.01" required placeholder="0.00">
+                        <h2 class="margin-top-20" style="margin-top: 25px;">Faktury wychodzące (Wystawione)</h2>
+                        <div class="table-responsive">
+                            <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Odbiorca</th>
+                                        <th>Tytuł</th>
+                                        <th>Kwota</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="invoices-sent-rows">
+                                    <!-- Dynamicznie -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: GIEŁDA -->
+            <section id="view-stock" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Wykres i lista akcji -->
+                    <div class="glass-card" style="padding: 20px; grid-column: span 2;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+                            <div>
+                                <h2>Giełda papierów wartościowych</h2>
+                                <p class="subtitle">Wybierz spółkę, aby zobaczyć wykres i zainwestować.</p>
                             </div>
-                            <button type="submit" class="btn btn-danger btn-glow">
-                                <span>Wypłać środki</span> <i class="fa-solid fa-circle-up"></i>
+                            <div>
+                                <select id="stock-select" class="auth-select" style="min-width: 180px; background: rgba(0,0,0,0.4); color: white; border: 1px solid var(--glass-border); border-radius: 8px; padding: 8px 12px;">
+                                    <!-- Opcje dynamicznie -->
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Wykres giełdowy -->
+                        <div style="background: rgba(0, 0, 0, 0.3); border-radius: 12px; padding: 15px; border: 1px solid var(--glass-border); margin-bottom: 20px;">
+                            <canvas id="stock-chart" width="800" height="300" style="width: 100%; display: block; height: 300px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-dual-grid" style="margin-top: 20px;">
+                    <!-- Zlecenie kupna/sprzedaży -->
+                    <div class="glass-card form-container-card">
+                        <h2 id="stock-trade-title">Inwestuj w spółkę</h2>
+                        <p class="subtitle">Kupuj lub sprzedawaj akcje wybranej spółki.</p>
+                        
+                        <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border); margin-bottom: 15px; display: flex; justify-content: space-between;">
+                            <span>Aktualna cena akcji:</span>
+                            <strong id="stock-current-price-display" style="color: var(--color-primary);">0.00 PLN</strong>
+                        </div>
+                        
+                        <form id="stock-trade-form">
+                            <div class="input-group">
+                                <label for="stock-shares-count">Liczba akcji</label>
+                                <input type="number" id="stock-shares-count" min="1" step="1" required placeholder="np. 5">
+                            </div>
+                            <div class="input-group">
+                                <label>Koszt całkowity / Przychód:</label>
+                                <strong id="stock-total-cost-display" style="font-size: 18px; color: #ffffff;">0.00 PLN</strong>
+                            </div>
+                            
+                            <div style="display: flex; gap: 15px; margin-top: 15px;">
+                                <button type="button" id="btn-stock-buy" class="btn btn-success" style="flex: 1;">Kup akcje</button>
+                                <button type="button" id="btn-stock-sell" class="btn btn-danger" style="flex: 1;">Sprzedaj akcje</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Portfel użytkownika -->
+                    <div class="glass-card form-container-card">
+                        <h2>Twój portfel akcji</h2>
+                        <div class="table-responsive">
+                            <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Spółka</th>
+                                        <th>Ilość</th>
+                                        <th>Śr. cena zakupu</th>
+                                        <th>Wartość</th>
+                                        <th>Zysk</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="stock-portfolio-rows">
+                                    <!-- Portfolio dynamicznie -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="margin-top: 15px; text-align: right;">
+                            <span>Łączna wartość portfela:</span>
+                            <strong id="stock-portfolio-total" style="font-size: 18px; color: var(--color-primary);">0.00 PLN</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: UMOWY -->
+            <section id="view-agreements" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Stwórz umowę -->
+                    <div class="glass-card form-container-card">
+                        <h2>Stwórz nową umowę online</h2>
+                        <p class="subtitle">System bezpiecznego księgowania i podpisywania umów handlowych online.</p>
+                        <form id="agreement-create-form">
+                            <div class="input-group">
+                                <label for="agreement-recipient">Druga strona umowy (Email / Karta / ID)</label>
+                                <input type="text" id="agreement-recipient" required placeholder="np. jan@kowalski.pl">
+                            </div>
+                            <div class="input-group">
+                                <label for="agreement-title">Tytuł umowy (np. Umowa kupna samochodu)</label>
+                                <input type="text" id="agreement-title" required placeholder="Nazwa umowy">
+                            </div>
+                            <div class="input-group">
+                                <label for="agreement-content">Warunki / Treść umowy</label>
+                                <textarea id="agreement-content" required placeholder="Wpisz pełną treść i warunki umowy..." style="width: 100%; min-height: 120px; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 8px; color: #ffffff; padding: 10px; font-family: inherit; font-size: 14px; resize: vertical;"></textarea>
+                            </div>
+                            <div class="input-group">
+                                <label for="agreement-amount">Kwota transakcji (PLN, 0 jeśli brak płatności)</label>
+                                <input type="number" id="agreement-amount" min="0" step="0.01" value="0.00">
+                            </div>
+                            <div class="input-group">
+                                <label for="agreement-pin">PIN Autoryzacyjny (Podpis cyfrowy)</label>
+                                <input type="password" id="agreement-pin" maxlength="4" required placeholder="Twój 4-cyfrowy PIN">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-glow">
+                                <span>Utwórz i podpisz umowę</span> <i class="fa-solid fa-signature"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Lista umów -->
+                    <div class="glass-card form-container-card">
+                        <h2>Umowy oczekujące na Twój podpis</h2>
+                        <div id="agreements-pending-list" style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px;">
+                            <!-- Dynamicznie -->
+                        </div>
+                        
+                        <h2 class="margin-top-20" style="margin-top: 25px;">Archiwum podpisanych umów</h2>
+                        <div class="table-responsive">
+                            <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Tytuł</th>
+                                        <th>Kwota</th>
+                                        <th>Strony</th>
+                                        <th>Status</th>
+                                        <th>Podgląd</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="agreements-signed-rows">
+                                    <!-- Dynamicznie -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: ZBIÓRKI -->
+            <section id="view-fundraisers" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Stwórz zbiórkę (tylko dla firm) -->
+                    <div class="glass-card form-container-card" id="company-fundraiser-card" style="display: none;">
+                        <h2>Stwórz nową zbiórkę charytatywną</h2>
+                        <p class="subtitle">Tylko zarejestrowane firmy mogą organizować zbiórki na PathlBank.</p>
+                        <form id="fundraiser-create-form">
+                            <div class="input-group">
+                                <label for="fund-title">Tytuł zbiórki</label>
+                                <input type="text" id="fund-title" required placeholder="np. Pomoc dla schroniska">
+                            </div>
+                            <div class="input-group">
+                                <label for="fund-description">Opis i cel zbiórki</label>
+                                <textarea id="fund-description" required placeholder="Wpisz cel zbiórki..." style="width: 100%; min-height: 80px; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 8px; color: #ffffff; padding: 10px; font-family: inherit; font-size: 14px; resize: vertical;"></textarea>
+                            </div>
+                            <div class="input-group">
+                                <label for="fund-target">Kwota docelowa (PLN)</label>
+                                <input type="number" id="fund-target" min="10" step="0.01" required placeholder="5000.00">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                <span>Uruchom zbiórkę</span> <i class="fa-solid fa-bullhorn"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Lista aktywnych zbiórek -->
+                    <div class="glass-card" style="grid-column: span 2; padding: 20px;" id="fundraisers-container-card">
+                        <h2>Aktywne zbiórki społecznościowe</h2>
+                        <p class="subtitle">Wspieraj projekty i inicjatywy innych zweryfikowanych firm.</p>
+                        <div class="users-list-grid" id="fundraisers-list-grid" style="margin-top: 20px;">
+                            <!-- Dynamicznie ładowane zbiórki -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: CZAT E2E -->
+            <section id="view-chat" class="view-pane">
+                <div style="display: grid; grid-template-columns: 280px 1fr; gap: 20px; height: 600px; max-height: calc(100vh - 180px);">
+                    <!-- Kontakty -->
+                    <div class="glass-card" style="padding: 15px; display: flex; flex-direction: column; height: 100%;">
+                        <h2>Kontakty</h2>
+                        <div id="chat-contacts-list" style="flex: 1; overflow-y: auto; margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                            <!-- Kontakty dynamicznie -->
+                        </div>
+                        <div style="margin-top: 10px; border-top: 1px solid var(--glass-border); padding-top: 10px; text-align: center;">
+                            <button id="btn-chat-keys-regen" class="btn btn-logout" style="width: 100%; font-size: 11px;">
+                                <i class="fa-solid fa-key"></i> Regeneruj klucze E2E
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Okno rozmowy -->
+                    <div class="glass-card" style="display: flex; flex-direction: column; height: 100%; overflow: hidden;">
+                        <div style="padding: 15px; border-bottom: 1px solid var(--glass-border); display: flex; justify-content: space-between; align-items: center; background: rgba(0, 0, 0, 0.2);">
+                            <div>
+                                <h3 id="chat-active-user-name">Wybierz kontakt z listy</h3>
+                                <span id="chat-encryption-indicator" style="font-size: 12px; color: var(--color-success); display: none;">
+                                    <i class="fa-solid fa-lock"></i> Szyfrowanie End-to-End (RSA + AES) aktywne
+                                </span>
+                            </div>
+                        </div>
+                        <div id="chat-messages-box" style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; background: rgba(0, 0, 0, 0.1);">
+                            <!-- Wiadomości dynamicznie -->
+                        </div>
+                        <form id="chat-send-form" style="padding: 15px; border-top: 1px solid var(--glass-border); display: flex; gap: 10px; background: rgba(0, 0, 0, 0.2);">
+                            <input type="text" id="chat-message-input" required placeholder="Wpisz bezpieczną wiadomość E2E..." disabled style="flex: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: 8px; color: #ffffff; padding: 12px;">
+                            <button type="submit" id="btn-chat-send" class="btn btn-primary" disabled style="padding: 10px 20px;">
+                                <i class="fa-solid fa-paper-plane"></i>
                             </button>
                         </form>
                     </div>
                 </div>
             </section>
 
-            <!-- WIDOK 4: LISTA UŻYTKOWNIKÓW -->
-            <section id="view-all-users" class="view-pane">
-                <div class="glass-card transaction-card">
-                    <div class="card-header">
-                        <h2>Zarejestrowani użytkownicy</h2>
-                        <p class="subtitle">Lista innych klientów w systemie. Możesz kliknąć "Wyślij przelew", aby szybko przetransferować środki.</p>
+            <!-- WIDOK: KONSOLA AI -->
+            <section id="view-ai-console" class="view-pane">
+                <div class="glass-card" style="padding: 25px; max-width: 800px; margin: 0 auto;">
+                    <h2>Konsola Asystenta AI</h2>
+                    <p class="subtitle">Zadaj pytanie asystentowi lub wpisz polecenie bankowe (np. "podaj moje saldo", "załóż lokatę na 200 zł").</p>
+                    
+                    <div id="ai-console-window" style="background: #000000; border-radius: 12px; height: 350px; overflow-y: auto; padding: 20px; font-family: 'Courier New', Courier, monospace; color: #00ff00; border: 1px solid #00ff00; box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px;">
+                        <div>[SYSTEM]: Połączono z asystentem AI PathlBank. Wpisz 'pomoc', aby wyświetlić listę obsługiwanych komend.</div>
                     </div>
                     
-                    <div class="users-list-grid" id="users-cards-container">
-                        <!-- Karty użytkowników ładowane przez JS -->
-                        <div class="text-center padding-20">Ładowanie użytkowników...</div>
+                    <form id="ai-console-form" style="display: flex; gap: 10px;">
+                        <span style="font-family: monospace; color: #00ff00; align-self: center; font-size: 18px;">$</span>
+                        <input type="text" id="ai-console-input" required placeholder="Wpisz komendę..." style="flex: 1; background: #000000; border: 1px solid #00ff00; border-radius: 6px; color: #00ff00; padding: 12px; font-family: monospace; font-size: 15px; outline: none; box-shadow: inset 0 0 5px rgba(0, 255, 0, 0.2);">
+                        <button type="submit" class="btn btn-primary" style="background: #005f00; border-color: #00ff00; color: #00ff00; box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);">
+                            Uruchom
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- WIDOK: NAGRODY -->
+            <section id="view-rewards" class="view-pane">
+                <div class="glass-card" style="padding: 25px; text-align: center; max-width: 600px; margin: 0 auto;">
+                    <i class="fa-solid fa-gift" style="font-size: 60px; color: var(--color-primary); margin-bottom: 15px;"></i>
+                    <h2>Program Lojalnościowy PathlBank</h2>
+                    <p class="subtitle">Zbieraj punkty lojalnościowe za korzystanie z banku i wymieniaj je na prawdziwy Cashback w PLN.</p>
+                    
+                    <div style="background: rgba(0, 242, 254, 0.1); border: 2px solid var(--color-primary); border-radius: 16px; padding: 20px; display: inline-block; margin: 25px 0;">
+                        <span style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted);">Twój stan punktów</span><br>
+                        <strong id="rewards-points-balance" style="font-size: 40px; color: #ffffff;">0 pkt</strong>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px;">
+                        <div class="glass-card" style="padding: 15px; border-color: var(--glass-border); display: flex; flex-direction: column; justify-content: space-between;">
+                            <h3>Próg 1</h3>
+                            <p style="font-size: 24px; font-weight: bold; margin: 10px 0; color: var(--color-primary);">10 PLN</p>
+                            <span style="font-size: 12px; color: var(--color-text-muted); margin-bottom: 15px;">Koszt: 100 pkt</span>
+                            <button class="btn btn-primary btn-exchange" data-option="100" style="font-size: 12px; padding: 8px;">Wymień</button>
+                        </div>
+                        <div class="glass-card" style="padding: 15px; border-color: var(--color-primary); display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 0 15px rgba(0,242,254,0.15);">
+                            <h3>Próg 2</h3>
+                            <p style="font-size: 24px; font-weight: bold; margin: 10px 0; color: var(--color-primary);">60 PLN</p>
+                            <span style="font-size: 12px; color: var(--color-text-muted); margin-bottom: 15px;">Koszt: 500 pkt</span>
+                            <button class="btn btn-primary btn-exchange" data-option="500" style="font-size: 12px; padding: 8px;">Wymień</button>
+                        </div>
+                        <div class="glass-card" style="padding: 15px; border-color: var(--glass-border); display: flex; flex-direction: column; justify-content: space-between;">
+                            <h3>Próg 3</h3>
+                            <p style="font-size: 24px; font-weight: bold; margin: 10px 0; color: var(--color-primary);">150 PLN</p>
+                            <span style="font-size: 12px; color: var(--color-text-muted); margin-bottom: 15px;">Koszt: 1000 pkt</span>
+                            <button class="btn btn-primary btn-exchange" data-option="1000" style="font-size: 12px; padding: 8px;">Wymień</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: USTAWIENIA -->
+            <section id="view-settings" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Zmień hasło i 2FA -->
+                    <div class="glass-card form-container-card">
+                        <h2>Zmień hasło logowania</h2>
+                        <form id="settings-password-form">
+                            <div class="input-group">
+                                <label for="settings-old-password">Obecne hasło</label>
+                                <input type="password" id="settings-old-password" required placeholder="Wpisz stare hasło">
+                            </div>
+                            <div class="input-group">
+                                <label for="settings-new-password">Nowe hasło (min. 5 znaków)</label>
+                                <input type="password" id="settings-new-password" required placeholder="Wpisz nowe hasło">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                Zmień hasło
+                            </button>
+                        </form>
+                        
+                        <h2 class="margin-top-20" style="margin-top: 25px;">Ustawienia weryfikacji 2FA</h2>
+                        <p class="subtitle">Zmień sposób zabezpieczania operacji logowania.</p>
+                        <form id="settings-2fa-form" style="display: flex; flex-direction: column; gap: 15px;">
+                            <div style="display: flex; flex-direction: column; gap: 10px;">
+                                <label class="radio-container" style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                    <input type="radio" name="settings-2fa-radio" value="NONE"> Brak (Tylko hasło)
+                                </label>
+                                <label class="radio-container" style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                    <input type="radio" name="settings-2fa-radio" value="EMAIL"> Kod weryfikacyjny OTP na E-mail
+                                </label>
+                                <label class="radio-container" style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                    <input type="radio" name="settings-2fa-radio" value="TOTP"> Google Authenticator (TOTP z QR)
+                                </label>
+                            </div>
+                            
+                            <div id="settings-totp-setup-section" style="display: none; flex-direction: column; align-items: center; gap: 10px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                                <p style="font-size: 14px; text-align: center;">Zeskanuj kod w aplikacji Google Authenticator i wpisz wygenerowany 6-cyfrowy kod, aby potwierdzić.</p>
+                                <div style="background: white; padding: 10px; border-radius: 8px;">
+                                    <img id="settings-qr-code-img" src="" alt="Kod QR" style="max-width: 150px; display: block;">
+                                </div>
+                                <div style="font-size: 13px; color: var(--color-text-muted);">
+                                    Lub wprowadź klucz: <strong id="settings-secret-key-text" style="color: var(--color-primary); letter-spacing: 1px;">---</strong>
+                                </div>
+                                <div class="input-group" style="width: 100%; max-width: 200px; margin-top: 10px;">
+                                    <input type="text" id="settings-totp-code" maxlength="6" pattern="^[0-9]{6}$" placeholder="123456" style="text-align: center; letter-spacing: 4px; font-size: 18px;">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                Zapisz ustawienia 2FA
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Rejestracja firmy -->
+                    <div class="glass-card form-container-card" id="settings-company-reg-card">
+                        <h2>Zarejestruj firmę w PathlBank</h2>
+                        <p class="subtitle">Zarejestrowane firmy otrzymują badge "Firma", budzą zaufanie i mogą organizować zbiórki.</p>
+                        <form id="settings-company-form">
+                            <div class="input-group">
+                                <label for="company-name-input">Nazwa firmy</label>
+                                <input type="text" id="company-name-input" required placeholder="np. KOWALSKI S.A.">
+                            </div>
+                            <div class="input-group">
+                                <label for="company-nip-input">NIP (10 cyfr)</label>
+                                <input type="text" id="company-nip-input" maxlength="10" required placeholder="NIP firmy">
+                            </div>
+                            <div class="input-group">
+                                <label for="company-regon-input">REGON (9 lub 14 cyfr)</label>
+                                <input type="text" id="company-regon-input" maxlength="14" required placeholder="REGON firmy">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-glow">
+                                Zarejestruj firmę <i class="fa-solid fa-building"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WIDOK: PANEL ADMINA -->
+            <section id="view-admin" class="view-pane">
+                <div class="form-dual-grid">
+                    <!-- Zarządzanie bankiem -->
+                    <div class="glass-card form-container-card">
+                        <h2>Ustawienia parametrów gospodarczych</h2>
+                        <p class="subtitle">Zmieniaj stopy procentowe i stopę inflacji w czasie rzeczywistym.</p>
+                        <form id="admin-settings-form">
+                            <div class="input-group">
+                                <label for="admin-inflation-input">Stopa inflacji rocznej (%)</label>
+                                <input type="number" id="admin-inflation-input" step="0.1" required placeholder="np. 5.0">
+                            </div>
+                            <div class="input-group">
+                                <label for="admin-interest-input">Stopa procentowa lokat/kredytów (%/h)</label>
+                                <input type="number" id="admin-interest-input" step="0.1" required placeholder="np. 4.5">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-glow">
+                                Zapisz parametry
+                            </button>
+                        </form>
+
+                        <h2 class="margin-top-20" style="margin-top: 25px;">Zasilenie konta (Dodaj środki)</h2>
+                        <p class="subtitle">Przyznaj środki wybranemu użytkownikowi w systemie.</p>
+                        <form id="admin-give-money-form">
+                            <div class="input-group">
+                                <label for="admin-recipient-input">Użytkownik (Email / Karta / ID)</label>
+                                <input type="text" id="admin-recipient-input" required placeholder="Odbiorca">
+                            </div>
+                            <div class="input-group">
+                                <label for="admin-amount-input">Kwota (PLN)</label>
+                                <input type="number" id="admin-amount-input" min="0.01" step="0.01" required placeholder="0.00">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-glow">
+                                Przelej środki <i class="fa-solid fa-coins"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Lista użytkowników i statystyki -->
+                    <div class="glass-card form-container-card">
+                        <h2>Wskaźniki finansowe systemu</h2>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                            <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                                <span style="font-size: 11px; color: var(--color-text-muted);">Suma wszystkich sald</span><br>
+                                <strong id="admin-stat-total-balance" style="color: var(--color-primary); font-size: 18px;">0.00 PLN</strong>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                                <span style="font-size: 11px; color: var(--color-text-muted);">Suma aktywnych lokat</span><br>
+                                <strong id="admin-stat-total-deposits" style="color: var(--color-success); font-size: 18px;">0.00 PLN</strong>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                                <span style="font-size: 11px; color: var(--color-text-muted);">Suma zadłużenia kredytów</span><br>
+                                <strong id="admin-stat-total-loans" style="color: var(--color-danger); font-size: 18px;">0.00 PLN</strong>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                                <span style="font-size: 11px; color: var(--color-text-muted);">Klienci / Firmy</span><br>
+                                <strong id="admin-stat-users-count" style="font-size: 18px;">0 / 0</strong>
+                            </div>
+                        </div>
+
+                        <h2>Wyszukiwanie i podgląd kont</h2>
+                        <div class="input-group">
+                            <input type="text" id="admin-search-users" placeholder="Szukaj użytkownika po email, imieniu, nazwisku..." style="width: 100%; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); border-radius: 8px; color: #ffffff; padding: 10px;">
+                        </div>
+                        <div class="table-responsive" style="max-height: 250px; overflow-y: auto;">
+                            <table class="transaction-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Klient</th>
+                                        <th>Saldo</th>
+                                        <th>Rola</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="admin-users-rows">
+                                    <!-- Klienci dynamicznie -->
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>
